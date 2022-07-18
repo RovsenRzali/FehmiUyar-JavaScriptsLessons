@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<div class="result"></div>
+<div class="result"></div>
+<div id="result3"></div>
+<div id="result4"></div>
+<div id="result5"></div>
+<div id="result6"></div>
+<div id="result7"></div>
+
+<script>
+  var x, y, z, sum, sub;
+
+  x = 5;
+  y = 6;
+
+  sum = x + y;
+
+  if(x<y && x!=y ) { // && moterizenin icerisindeki her iki sert odenmelidir
+    document.getElementsByClassName('result')[0].innerHTML = "Şərt ödənir"
+  } else {
+    document.getElementsByClassName('result')[0].innerHTML = "Şərt ödənmir"
+  }
+
+  if(x<y || x==y ) { // 2 sertden biri odense kifayetdi.
+    document.getElementsByClassName('result')[1].innerHTML = "Şərt ödənir"
+  } else {
+    document.getElementsByClassName('result')[1].innerHTML = "Şərt ödənmir"
+  }
+
+  x = 8;
+  y = 8;
+  if (!(x!=y)) { // yeni x y-e beraber deil. "!" ozunden sonraki moterizede olan sertin eksini bildirir.
+    document.getElementById('result3').innerHTML = "Şərt ödənir";
+  } else {
+    document.getElementById('result3').innerHTML = "Şərt ödənmir";
+  }
+
+  document.getElementById('result4').innerHTML = typeof x;
+
+  c = "Bu bir string"
+  document.getElementById('result5').innerHTML = typeof c;
+
+
+
+
+
+</script>
+
+</body>
+</html>

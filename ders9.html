@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="result1"></div>
+
+    <div id="result2"></div>
+    <!-- buttona klikledikde funksiyanin icerisinde olan code block unu cagirir -->
+    <button type="button"  onclick="firsNameandlastName()">Bura klikle</button>
+
+    <script>
+      // asagidakilarin hamisi bir statementdir.
+      //statementler noqtali vergule sonlanir
+      var firsName, lastName;
+      _firstName = "Rovsen";
+      $lastName = "Rzali";
+
+      document.getElementById("result1").innerHTML =
+        _firstName + "  " + $lastName;
+
+      /* Code Blocks
+      Js ifadeleri kod bloklarinde, bezekli moterize icinde {...} birlikte qruplana biler.
+      burda function koddur, firsNameandlastName ise koda verdiyimiz addir.*/
+      function firsNameandlastName() {
+        var firsName, lastName;
+        _firstName = "Rovsen";
+        $lastName = "Rzali";
+
+        document.getElementById("result2").innerHTML =
+          _firstName + "  " + $lastName;
+      }
+    </script>
+  </body>
+</html>

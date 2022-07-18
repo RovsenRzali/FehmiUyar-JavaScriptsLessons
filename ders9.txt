@@ -1,0 +1,42 @@
+>>>>JavaScript statements<<<<
+
+* HTML de Js statementlar, web tarayicisi tarafinda
+  calistirilamsi gereken "talimatlardir".
+
+* Bir Js proqrami bir cox statemenlerden ibaret olur.
+
+* statementlar yazildiqlari sira ile yuxaridan asagiya dogru oxunur.
+
+* JS statementler umumilikde Js kodu olaraq adlandirilir.
+
+* noqteli vergule ayrildigi zaman bir stirde birden cox koda yazmaq olar.
+
+* Web de noqteli vergule bitmeyen Js kodlari gore bilersiniz.
+  Amma siz mutleq noqteli vergul istifade edin.
+
+  >>>>JavaScript White Space<<<<
+
+* Js birden cox boslugu yox sayar.
+
+* Operatorlarin etrafinde bosluk buraxmaq yaxsidir.
+
+>>>JavaScript setir uzunlugu ve setir kesimleri (line length and line breaks)<<<
+
+* Proqramistler kodun daha yaxsi oxunabilirliyi ucun bir setirde
+  80den cox xarakter isletmekden cekinerler.
+
+* Bir Js ifadese eger bir setire sigmirsa onun davamini novbeti setire kecirmeyin
+  en yaxsi yeri bir operatorun sonrasidir.
+
+
+>>>>>JavaScript Code Blocks <<<<<<<
+
+* Js ifadeleri kod bloklarinde, bezekli moterize icinde {...} birlikte qruplana biler.
+
+* Kod bloklarinin meqsedi, birlikte yurutulecek statemenleri tesvir etmekdir.
+
+* Bloklar halinda qruplasdirilmis ifadeleri bulacagimiz yer Js funksiyalaridir.
+
+* "get" neyise getirib ekranda gostermek istediyimiz zaman, "set" ise onun icerisine
+   neyise qurasdirdigimiz zaman isledirik.(amma standart bir qayda deil)
+

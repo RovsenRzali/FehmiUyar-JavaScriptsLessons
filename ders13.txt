@@ -1,0 +1,42 @@
+<<<<<<<<Javascript Logical Operators>>>>>>>>
+
+Operator    Description
+
+* &&        logical and (her iki sert odenmelidi.)
+
+* ||        logical or (2 sertden biri odense kifayet eder.)
+
+* !         logical not (yeni beraber deil, kicik deil, ve.s)
+            ozunden sonraki moterizedeolan sertin eksini bildirir.
+            (x<y) (x!=y) (x==y) ve.s sertlerin tam eksini bildirmek ucun istifade olunur.
+
+
+>>>>>>>>>JavaScript Type Operators<<<<<<<<<
+
+Operator    Description
+
+* typeof      bir deyiskenin novunu gosterir.
+
+* instanceof   bir nesne ve bir nesne turunu
+
+
+>>>>> JavaScript Arithmetic <<<<<
+  Bura operatorlar daxildir.
+ operator
+
+* +
+* -
+* *
+* /
+* %
+* ++
+* --
+
+>>>>> Operator Precedence <<<<<
+ Operatorlarda oncelik sirasi kimde
+
+ * once vurma emeli yerine yetirilir.
+
+ * bircox emel eyni ustunluye sahib oldugunde bunlar
+   sagdan sola dogru hesablanir. vurma ve bome ardicil olduqda soldan saga
+   dogru ardicil yerine yetirilecek.

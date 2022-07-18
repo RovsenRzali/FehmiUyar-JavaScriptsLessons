@@ -1,0 +1,31 @@
+>>>>>> Javascript Data Types <<<<<<<
+
+* Js deyiskenleri bir cox datatipini saxlaya biler:
+  numbers, stringler, nesneler ve daha fazlasi
+
+* Data Types olmadan komputer ne edeceyini basadusmez.
+
+* Js ifadeleri soldan saga dogru deyerlendirir.
+  y = "12" + 2 + 5; bunun cavabi 1225 olacaq. birinci ifade string
+  oldugu ucun ondan sonrakilarida string olaraq qebul edilcek.
+  y = 2 + 5 + "12; bunun cavabi 712 olacaq. birinci gelenler stringi.
+  Eger stringden sonra number gelirse Js bunu string olaraq taniyacaq.
+
+* Js deyiskenlere verilen deyerler dinamikdir.
+  x = 6;
+  x = "React Js;
+  x = 5.33;
+  x = true;// deyerleri deyisdirmek olur.
+
+* 1.String data types:
+    - Bir string (ve ya bir metin dizesi),
+    - stringler dirnaq icerisinde yazilir. tek ve ya cut dirnaq.
+      bir metni dirnaq icerisinde gostermek istedikde. Kenarda tek dirnaq
+      daxilde cut drinaq yaza bilerik.
+
+* 2.Sayilar ucun isledilen data types lar:
+    - tam sayilar ucun isledilen data types numberd-dir.
+    - onluq sayilar ucun isledilen data types numberd-dir.
+    - ekstra boyuk ve ya ekstra kicik sayilar ustel (yeni 10 ustu 4)
+      sekilde yazila biler.
+

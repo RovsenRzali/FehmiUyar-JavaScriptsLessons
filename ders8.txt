@@ -1,0 +1,10 @@
+Javascript sytax rules
+
+*Js deyerleri hesablamaq ucun aritmetik islecler kulanir (+ - * /) kullanir.
+
+* Js de keywords ler cox vacibdi.
+* 'var' keyword u  deyisken yaratmasini emrini verir.
+* Js de deyiskenler ya '_',herfle, '$' isaresi ile baslamalidi. arxasinda ne sitesek yaza bilerik.
+* Js boyuk kicik herflere hessasdir.
+* Js '-'(hyphens ) adlandirilmaga icaze verilmir.
+* Js Unicode karakter setini kullanmaktadir.

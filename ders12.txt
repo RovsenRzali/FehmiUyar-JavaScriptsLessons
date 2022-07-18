@@ -1,0 +1,50 @@
+>>>>JavaScript Operators<<<<<<
+
+* Deyiskene deyer teyin etmek isini (=) heyata kecirir.
+
+* sub (subtraction) cixma emeli.
+
+* multi (multiplaction) vurma emeli
+
+* division (/) bolme emeli.
+
+* Modulus (%) (modul) bolme zamani qalan qaligi gosterir.
+
+* Increment (++) artirma  ededi 1 dene artiri, 10odusa 11 olur
+
+* decrement (--) azaltma
+
+>>>>JavaScript Assignment Operators<<<<
+  Operator    Example    Same As
+* =           x = y      x = y;
+* +=          x += y    x = x + y;
+* -=          x -= y    x = x - y;
+*  *=
+* /=
+* %=
+
+(+) Operatoru dizilere]i(stringleri) eklemek (birlestirmek) ucunde istifade edilir.
+
+>>>>>JavaScript Comparison Operators<<<<<
+
+* ==  equal to (beraberdir). deyer olaraq beraber olub olmadigin yoxlayir
+      yeni biri string "5" biri number disa, deyer olaraq beraberliyi yoxlayir.
+      dirnagin icerisindeki deyer  number-a beraber olub olmadigin yoxlayir.
+
+* === equal value and equal type (esit deyer ve esit tur).
+        hem tur hemde deyer olaraq beraber olmalidir. Eger biri ferqlidise
+        sert odenmir.
+
+* !=  not equal (beraber deil).
+
+* !== not equal value or not equal type (beraber olmayan deyer ve ya esit olmayan tur).
+
+* >
+
+* <
+
+* >=  greater than or equal to (den daha boyuk ve ya beraber)
+
+* <=  less than or equal to (den daha kicik ve ya beraber).
+
+* ?  ternary operator (uclu operator).

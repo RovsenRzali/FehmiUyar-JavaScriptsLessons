@@ -1,0 +1,9 @@
+Komputer proqrami--komputer tereffinden yerine yetirilmesi lazim olan emrler ardiciligidir.
+proqramlasdirma dilinde bu emrlere(icra oluna setrlere) ifadeler(statements) deyilir.
+JS ifadeleri noqteli vergule ayrilir.
+HTML de Js proqramlari brouzer terefinde icra olunur.
+Js ifadeleri Degerler,Operatorlar,Ifadeler, Anahtar Kelimeler ver yorumlardan olusur.
+Js de sozdizimi 2 deyer novunu taniyir:SAbit deyerler ve deyisken deyerler
+Sabit deyerlere "literal" deyilir. Deyisken deyerler deyisken olaraq adlandirlir.
+--Dirnaq (cut ve ya tek dirnaq) icerisinde yazilan her bir seye string deyilir
+--deyisenler (var,let,) bir depodur, deyerleri icinde topluyur.

@@ -1,0 +1,13 @@
+>>>>>Javascript Variables<<<<<
+
+* Butun Js deyiskenlerinin adlari ferqli olmalidi.
+
+* ferqli adlar tanimlayicilar olaraq adlandirilir.
+
+* tanimlayicinin adi aciqlayici olmalidi.
+
+* Js de beraber isaresi (=), bir "tapsiriq(atama)"(teyin etmek) operatorudur, beraber operatoru deyildir.
+
+* "beraber" operatoru, Js de "==" bele yazilir.
+
+* dirnaq icerisinde dirnaq isletmek olmaz.

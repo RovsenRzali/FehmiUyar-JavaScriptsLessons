@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <div id="result"></div>
+   <div id="result2"></div>
+
+
+   <script>
+     var x,y,z;
+     x = 7;
+     y = 7;
+     z = 70;
+
+     document.getElementById('result').innerHTML = (x==y) + "<br>" + (x==z);
+
+     var langs=["JavaScript","Angular","Python",  "Node.js", "JQUERY", "React"];
+     var i;
+     for(i=0; i<langs.length; i++) {
+      document.getElementById('result2').innerHTML += langs[i] + " "; // burda += e diqqet etmek lazimdi
+      document.write(`${i + 1}.` + langs[i] + "<br>")
+     }
+
+     // objects
+     var person = {firstName:"Fehmi", lastName:"Uyar"}; //isim-deyer cutu yaradildi.
+   </script>
+</body>
+</html>

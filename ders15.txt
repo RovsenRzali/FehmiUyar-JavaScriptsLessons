@@ -1,0 +1,16 @@
+>>>>Javascript data types<<<<<
+
+3. Javascript Booleans veri turu
+
+ - Boolean'larin yalnizca 2 degeri olabilir: true ve ya false
+ - Boolean-lar tez-tez kosullu ifadelerde kullanilir.
+
+4. Javascript Array-ler (diziler ve ya masivler).
+
+ -Javascript arrayler kvadrat moterizelerde yazilir.
+ -Array-in daxilindeki verilenler vergule ayrilir.
+
+5. Javascript Objects
+  
+ - Javascript obyektleri kvadrat moterizelerde yazilir.
+  Obyekt ozelikleri "isim-deyer" cutleri olaraq bir-birinden vergulle ayrilir.

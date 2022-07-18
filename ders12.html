@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<div class="result"></div>
+<div class="result"></div>
+<div id="result3"></div>
+<div id="result4"></div>
+<div id="result5"></div>
+<div id="result6"></div>
+<div id="result7"></div>
+
+
+
+  <script>
+    var x, y, z, sum, sub//cixma emeli;
+
+    x = 70;
+    y = 4;
+    // sum = x * z;
+    z = x++;
+    /* burda z-e 10 ededini verir, sora x-a 1 eleave edir  ve x  11 olur,
+        bunda sonrada x-in deyeri 11 olaraq qalir..*/
+    z = ++x;
+    /* eger bu sekilde olsaydi birinci 1-i x-e elave edecekdi ve z = 71 olacaqdi.
+    ++ deyerden evvel ve sonra yazilmasi cavabda ferq yaradir. */
+
+    document.getElementsByClassName('result')[0].innerHTML = z +"<br>" + x;
+    sub =  y--;
+    /* decremente(-)  increment(+) kimi eyni mentiqle isleyir. minusun (-) deyerden evvel
+    ve sonra gelmesi ferq yaradir */
+    document.getElementsByClassName('result')[1].innerHTML = sub;
+
+    var text1, text2;
+    text1 = "Jquery, ";
+    text1 += "Js-de en cox isledilen library-di."
+
+    document.getElementById('result3').innerHTML = text1;
+
+    let d = 5;
+    let f = "5";
+
+    if (d==f)  {
+      document.getElementById('result4').innerHTML = 'Eger beraberdirse  bunu goster';
+    } else {
+      document.getElementById('result4').innerHTML = 'Beraber deilse bunu goster';
+    }
+
+
+    if (d===f)  {
+      document.getElementById('result5').innerHTML = 'Eger beraberdirse  bunu goster';
+    } else {
+      document.getElementById('result5').innerHTML = 'Beraber deilse bunu goster';
+    }
+
+    /*bu isare bir-birine beraber olmayan deyeri axtarir.
+    eger deyerler bir-birine beraberdise sert odenmir.
+    beraber deilse sert odenir.
+    yeni deyerin bir-birine beraber olmayan halin axtaririq.*/
+    d =  "7";
+    f =  7;
+    if (d!=f)  {
+      //deyerler bir-birine beraber deilse bunu gosterir
+      document.getElementById('result6').innerHTML = 'Deyerler bir-birine beraber deil.';
+    } else {
+      // deyerler beraberdirse bunu gosterecek.
+      document.getElementById('result6').innerHTML = 'Deyerler bir-birine beraberdir.';
+    }
+
+
+    // d = "Samir";
+    // f = "Rovshan";
+    if (d!==f)  {
+      //deyerler bir-birine beraber deilse bunu gosterir
+      document.getElementById('result7').innerHTML = 'Deyerler bir-birine beraber deil.';
+    } else {
+      // deyerler beraberdirse bunu gosterecek.
+      document.getElementById('result7').innerHTML = 'Deyerler bir-birine beraberdir.';
+    }
+
+  </script>
+</body>
+</html>
