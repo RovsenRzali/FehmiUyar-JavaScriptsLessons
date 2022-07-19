@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="result"></div>
+  <div id="result2"></div>
+  <div id="result3"></div>
+  <div id="result4"></div>
+  <div id="result5"></div>
+  <div id="result6"></div>
+  <div id="result7"></div>
+
+
+  <script>
+    var x, y, z, a, b, person;
+
+    x = 7; // number // integer
+    y = "JavaScript"; //string
+    z = true; //boolean
+    b = undefined; //undefined. b-yə heç bir dəyər təyin etməsək belə növün undefined verəcək
+    a = ""; // null string
+    person = {firstName:"Fehmi", lastName:"Uyar"}; // object--nesne turu
+
+    document.getElementById('result').innerHTML = "x dəyişkəninin dəyəri:" +  x + ", " + "x-dəyişkəninin növü:" + typeof x + ".";
+    document.getElementById('result2').innerHTML = typeof y;
+    document.getElementById('result3').innerHTML = typeof z;
+    document.getElementById('result4').innerHTML = "a dəyişkəninin dəyəri:" +  a + " " + "a-dəyişkəninin növü:" + typeof a;
+    document.getElementById('result5').innerHTML = typeof b;
+    document.getElementById('result6').innerHTML = typeof person;
+    document.write("null-un növü:" + typeof null) // null-un typeof-u object-i.
+    document.write("<br>")
+    document.write("undefined növü:" + typeof undefined)
+    document.write("<br>")
+    document.write(typeof undefined + " " + typeof null) // növ olaraq fərqlidirlər.
+    document.write("<br>")
+    document.write((null === undefined) + " " + (null == undefined)); // dəyər olaraq ikisidə boolean-dış
+
+
+    person = null; //Obyekti null dəyərinə təyin edərək bir obyekti boşalda bilərik.
+    person = undefined; // Bir obyekti müəyyən edilməmiş(undefined) olaraq təyin edərək də bir obyekti boşalda bilərik.
+
+    document.write("<br>")
+    document.write( "Obyektin novu:" +  typeof {firstName:"Fehmi", lastName:"Uyar"} + ". 'Null-un novu:'" +
+    typeof null + ". 'Array'-in novu:" + typeof [1,2,4] + '. "Funksiyanin"-in novu:' +
+    typeof function test() {});
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+>>>>>JavaScript Data Types<<<<<
+
+* typeof Operator
+
+* Bir JavaScript dəyişkənin növünü tapmaq üçün üçün
+  Js typeof operatoru istifadə olunur.
+
+* Boş bir dəyərin, undefined növü ilə heç bir əlaqəsi yoxdur.
+  Boş bir string-in həm dəyəri həm də növü vardır.
+
+* JavaScript "null" heç bir şeydir.
+
+* JavaScript-də "null" veri növü bir obyektir.
+
+* Obyekti null dəyərinə təyin edərək bir obyekti boşalda bilərik.
+
+* Bir obyekti müəyyən edilməmiş(undefined) olaraq təyin edərək də bir obyekti boşalda bilərik.
+
+* Xülasə, undefined və null dəyər olaraq bərabər, ancaq növləri fərqlidir.
+
+>>>>> JavaScript data Types <<<<<
+
+* Primitive Data:
+  Primitiv(ilkel) bir data(veri) dəyəri, əlavə özəllik və üsulları olmayan tək bir sadə data(veri) dəyəridir.
+  Operator növü bu Primitiv növlərdən birini qəbul edə bilir:
+  - string
+  - number
+  - boolean
+  - undefined
+
+* Complex Data:
+  Operator növü, iki qarmaşıq növdən birini göstərə bilir:
+   - Funksiya
+   - Object
+
+  -- Typeof operatoru hər ikisi üçün object, array və null üçün obyekt göstərə bilir.
+  -- Operator, funksiyalar üçün obyekt verə bilmir.
