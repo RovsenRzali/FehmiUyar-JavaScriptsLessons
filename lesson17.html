@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="result"></div>
+    <button type="button" onclick="calculate()">Hesabla</button>
+
+    <div id="result2"></div>
+
+    <div id="result3"></div>
+    <button type="button" onclick="Multi()">Vurma</button>
+
+    <div id="result4"></div>
+    <button type="button" onclick="decr(8,6); decade(8,2)">result4</button>
+
+    <script>
+      function Show() {
+        window.alert("Kimse beni cagirmadi");
+      }
+      //Show()
+
+      // static funksiya
+      function calculate() {
+        var x, y, z;
+        x = 7;
+        y = 8;
+        z = x * y * 4;
+        document.getElementById("result").innerHTML = "Cavab:" + z;
+      }
+
+      //dinamik funksiya
+      var par1, par2;
+      par1 = 3;
+      par2 = 8;
+      function calculate2(par1, par2) {
+        document.getElementById("result2").innerHTML = par1 + par2;
+      }
+      calculate2(3, 8);
+
+      function Multi(par3, par4) {
+        return par3 * par4;
+      }
+      document.getElementById("result3").innerHTML = Multi(6, 8);
+
+      function decr(par5, par6) {
+        return document.write(par5 - par6 + "<br>");
+      }
+
+      function decade(par7, par8) {
+        return document.write(par7 / par8);
+      }
+    </script>
+  </body>
+</html>

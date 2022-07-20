@@ -1,0 +1,22 @@
+>>>>> JavaScript Functions <<<<<
+
+* Js funksiyası müəyyən  bir vəzifəni həyəta keçirmək üçün
+  nəzərdə tutulmuş bir kod blokudur.
+
+* Bir Js funksyası çağrıldığında icra olunur.
+  Çağırılmadan icra olunmaz.
+
+ * Js funskiyasi "function" açar sözü ilə başlıyar,
+   sonrasında funskiyanin adı gələr və  mötərizə () ilə sonlanar.
+
+ * Mötərizələrin içərisinə parametr adlarını yaza bilərik.
+  (parametre1, parametre2)
+
+ * Funksiya tərəfindən icra ediləcək kod bəzəkli mötərizə {} içərisində yazılır.
+
+ * Js bir return değimmine eriştiğinde, fonksiyonun çalışması durdurulur.
+   yəni return-dən sonra yazılan kod işləmiyəcək.
+
+ * onclick-in icerisinde 2 dene funksiya  çağıra bilərik.
+
+ *document.write() aşağıda işlədildikdə özündən yuxarıda bütün HTML elementlərin silir.  
