@@ -1,0 +1,46 @@
+>>>>>> Javascripts Objects <<<<<
+
+* Real həyatda maşın bir obyektir.
+
+* Maşının rengi, ağırlığı, ve.s xüsusuiyyetleri(properties) vardır.
+  Metdolar(funksiyalar) isə maşını işə salmaq və ya söndürməkdir və.s..
+
+ * Object     Properties               Methods
+
+    CAR       car.name = Fiat        carşstart()
+              car.model = 500        car.drive()
+              car.weight = 850kq     car.brake()
+              car.color = white      car.stop()
+
+* Obyekt yönümlü proqramlaşdırmada funksiyalara method deilir.
+
+* Obyektlerde dəyişkənlərdir amma Obyektlər bir-neçə dəyər qəbul edə bilir.
+
+* İsim-dəyər cütləri(Js obyektlərindəki) özəllik olaraq adlandırılır.
+
+ Property    Property Value
+
+ type          Nissan
+ model         400A
+ color         Black
+ fullProperty   function() {return this.type + "" + this.model;}
+
+
+* Metodlar, obyektlər üzərində həyəta keçitilə bilən eylemlerdir.
+* Metdolar, funksiya adları olaraq xüsusiyətlərdə saxlanılır.
+* Bir obyekt tanımı birdən çox sətirə yayılabilər.
+
+* Obyektin xüsusiyətlərinə 2 formada çağrıla bilir.
+   - objectName.propertyName
+   - objectName["propertyName"]
+
+* Bir obyekt metodu aşağıdakı söz sırasıyla çağrılır:
+  objectName.methodName()
+
+* Js dəyişkəni "new" keyword-ü ilə elan edildiyində,
+ dəyişkən bir obyekt olaraq yaradılır.
+
+* Stringler, Number-lar ve Boolean-larıObyekt olaraq elan etməyin!
+  String, Number və Boolean obyektlerindən çəkinin. Kodunuzu mürəkəbləşdirir və
+  icra olunma sürətini azaldır.
+

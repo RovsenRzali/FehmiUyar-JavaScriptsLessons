@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="result"></div>
+  <div id="result2"></div>
+  <div id="result3"></div>
+  <div id="result4"></div>
+  <div id="result5"></div>
+  <div id="result6"></div>
+  <div id="result7"></div>
+
+  <script>
+    var car = {name:"Nissan", marka:"400A", color:"Black"}
+    //name:"Nissan", bu isim-dəyər cütlüylünə xüsusiyyət deilir.
+    // Burda maşının 3 xüsusiyyəti var.
+    /*kodun uxunurluğun artırmaq üçün obyektin xüsusoyyətləri sətrlərə yayılmalıdırş
+    var car = {name:"Nissan",
+    marka:"400A",
+    color:"Black"} "bur formada" */
+
+    //obyektin icindəki funksiyaya metod adlanır.
+    var car2 = {
+      name:"Nissan",
+     marka:"400A",
+     color:"Black",
+     //obyektin icindəki funksiyaya metod adlanır.
+     start:function (){
+      /* funksiyanı obyektin içində yazdığımıza görə  "car2" deil
+      "this" keyword-inden istifade edirik. "this" yazdıqda bu obyektin içindəki
+      name-i istifadə etməyi nəzərdə tutur. */
+      return this.name + " " + this.marka + " işə salındı."
+    },
+    drive:function (){
+      return this.name + " " + this.marka + " hərəkətə başladı."
+    },
+    brake:function (){
+      return this.name + " " + this.marka + " əyləcə basıldı."
+    },
+    stop:function (){
+      return this.name + " " + this.marka + " dayandı."
+    },
+  }
+
+  document.getElementById("result").innerHTML  = car2.name;
+  document.getElementById("result2").innerHTML = car2.color;
+  document.getElementById("result3").innerHTML = car2.start();
+  document.getElementById("result4").innerHTML = car2.drive();
+  document.getElementById("result5").innerHTML = car2.brake();
+  document.getElementById("result6").innerHTML = car2.stop();
+  // bur formada da yazmaq olar
+  document.getElementById("result7").innerHTML = car2.start() +
+  car2.drive() +
+  car2.brake() +
+  car2.stop();
+
+  // obyektin xüsusiyətlərinə array kimi çağırmaq olar.
+  document.write(car["name"]);
+
+  // dəyişkəni obyektə çevirmək.
+  var x = new String();
+
+  </script>
+
+</body>
+</html>
