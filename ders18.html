@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="result"></p>
+  <p id="result2"></p>
+  <p id="result3"></p>
+  <p id="result4"></p>
+  <p id="result5"></p>
+  <p id="result6"></p>
+
+  <script>
+    //Faranhed to Celcie
+    function toCelcios(x) {
+      return (5/9) * (x-32) + "<br>"
+    }
+    document.write(toCelcios(59))
+
+    function getName(name, surname) {
+      return name + "" + surname + "<br>";
+    }
+
+    document.write(getName("Java","Script"));
+
+    // Funksiya içində funksiya yazmaq
+
+    function sum(data1,data2) {
+      return data1 + data2
+    }
+
+    function Calculate(pr1,pr2) {
+      return sum(pr1,pr2) * sum(pr1,pr2)
+    }
+
+    var getNumber = Calculate(4,5);
+
+    document.write(getNumber + "<br>");
+
+    document.getElementById('result').innerHTML = Calculate(4,5);
+    document.getElementById('result2').innerHTML = Calculate(4,6);
+    document.getElementById('result3').innerHTML = Calculate(4,8);
+    document.getElementById('result4').innerHTML = Calculate(4,1);
+    document.getElementById('result5').innerHTML = Calculate(4,7);
+
+    // Bunu qısaca olaraq belə yaza bilərik.
+
+    function printScreen(par) {
+      document.getElementById('result6').innerHTML = par;
+    }
+
+    printScreen("printScreen-in cavabi:" + Calculate(4,5));
+
+    //document.write yazioma fromasi
+    /*Bu formada funksiya daha obyekt yonumludu.
+    biz sonrada reqebleri "alert"-le ekrana vermek istesek,
+    sadece document.wirte silib yerine a"alert" yazırıq */
+    function _printScreen (par) {
+      document.write(par + "<br>")
+    }
+
+    _printScreen(Calculate(2,5))
+    _printScreen(Calculate(3,5))
+    _printScreen(Calculate(11,5))
+    _printScreen(Calculate(10,5))
+  </script>
+</body>
+</html>
