@@ -1,0 +1,20 @@
+>>>>>> JavaScript Scope <<<<<<
+
+* Js-də 2 cür fəaliyyət sahəsi var:
+  - Local Scope
+  - Global Scope
+
+* Js-də funksiyaların fəaliyyət sahəsi var: Hər funksiya yeni bir
+  fəaliyyət sahəsi formalaşdırır.
+
+* Scope, bu dəyişkənlərin əlçatanlığını müəyyənləşdirir.
+
+* Funksiyanın içərisində elan edilmiş dəyişkənlər, funksiyanın kənarında çağrılabilməz.
+
+* Js funksiyası içərisində elan edilmiş dəyişkənlər, funksiya içərisində Local olur.
+
+* Local dəyişkənlər yalnızca funksiya içərisində tanınır, çünki eyni isimə sahib dəyişkənlər farklı
+  fərqli funksiyalarda işlədilə bilir.
+
+ * Local dəyişkənlər bir funksiya başladıldığında yaradılır və funksiya tamamlananda silinir.
+ 
