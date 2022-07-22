@@ -16,5 +16,28 @@
 * Local dəyişkənlər yalnızca funksiya içərisində tanınır, çünki eyni isimə sahib dəyişkənlər farklı
   fərqli funksiyalarda işlədilə bilir.
 
- * Local dəyişkənlər bir funksiya başladıldığında yaradılır və funksiya tamamlananda silinir.
- 
+* Local dəyişkənlər bir funksiya başladıldığında yaradılır və funksiya tamamlananda silinir.
+
+
+>>>>>>>> Global JavaScript Variables <<<<<
+
+* Funksiyanın kənarında elan edilən dəyişkən Global olur.
+
+* Global bir dəyişkənin ümumi əhatə dairəsi vardır. Bir web sayfasındakı tüm
+  komut dosyalar və funksiyalar onu çağıra bilər.
+
+* Js-də obyektlər və funksiyalarda dəyişkənlərdir.
+
+* Elan edilməmiş bir dəyişkənə bir dəyər təyin edilən zaman avtomatik olaraq
+  Global bir dəyişkən olur.
+
+* Məcbur qalmadığınız müddətcə Global dəyişkən yaratmayın.
+
+* Bir Js dəyişkəni ömrü bildirildiyində başlar.
+
+* Funksiya tamamlananda local dəyişkənlər silinir.
+
+* Bir web brouzerdə, brouzer pəncərəsini bağladığınızda Global dəyişkənlər silinər
+  ancaq eyni pəncərədə yüklənən yeni səhifələr üçün işlək qalır.
+
+* Funksiya parametrləri funksiya içərisində local dəyişkən olaraq fəaliyyət göstərirlər.

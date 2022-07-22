@@ -9,10 +9,28 @@
 <body>
 
   <div id="result"></div>
+  <div id="result2"></div>
+  <div id="result3"></div>
 
   <script>
 
-    
+    var globalScope = "React.js"; /* bur formada global dəyişkəni hər kəs
+                                   istifadə edə və içərisin dəyişdirə bilər.
+                                   Məcbur olmaqdıca Global variablesin istifadəsi məsləhə deil. */
+
+    function Scope() {
+      var name = "Node Js"; // Local variables
+
+    }
+
+    function Test() {
+      name = "Node.js" /* var,let const istifadə edilmən elan olunan
+                           olunan dəyişkən funksiyanın içərisində olsa belə Global varibales sayılır
+                            və onu kənardan çağırmaq olur. */
+    }
+
+    document.getElementById('result').innerHTML = name;
+
   </script>
 
 </body>
