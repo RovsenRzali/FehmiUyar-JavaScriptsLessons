@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body onload="message();">
+
+  <select name="select" id="myselect" onchange="myselect()">
+    <option value="">Node.js</option>
+    <option value="">Angualr.js</option>
+    <option value="">React.js</option>
+    <option value="">Vue.js</option>
+  </select>
+
+  <p id="result"></p>
+  <button type="button" onclick="elementClick()">Click</button>
+
+  <p id="result2"></p>
+  <button type="button" onclick="elementDoubleClick()">DoubleClick</button>
+
+  <p id="result3" onmouseover="elementOnmouseOver()" style="width:100%; height:100px; border:2px solid black; "></p>
+
+  <p id="result4" onmouseout="elementOnmouseOut()" style="width:100%; height:100px; border:2px solid red; "></p>
+
+  <p id="result5" onmouseup="elementOnmouseUp()" onmousedown="elementOnmouseDown()" onmousemove="elementOnmouseMove(event)" style="width:100%; height:100px; border:2px solid red; "></p>
+
+
+  <div  id="result6" style="width:250px; height:50px; border:2px solid; "></div>
+
+  <script>
+    // function message() {
+    //  alert("Mən yükləndim")
+    // document.write("JavaScript səhifəsi")
+    // }
+
+    function myselect() {
+      alert("ELə bil nəsə dəyişdi")
+    }
+
+    function elementClick() {
+
+      document.getElementById('result').innerHTML = "Click down button"
+    }
+
+    function elementDoubleClick() {
+      document.getElementById('result2').innerHTML = "DoubleClick down button"
+    }
+
+    function elementOnmouseOver() {
+      document.getElementById('result3').innerHTML = "Yalnız mouse üzərində olduğunda görsənir."
+      //alert("Yalnız mouse üzərində olduğunda görsənir.")
+    }
+
+    function elementOnmouseOut() {
+      document.getElementById('result4').innerHTML = "Yazını oxumaq üçün mouse kənarda saxla"
+    }
+
+    function elementOnmouseUp() {
+      document.getElementById('result5').innerHTML = "Adi hala bu reng"
+      document.getElementById('result5').style.backgroundColor = "red"
+    }
+
+    function elementOnmouseDown() {
+      document.getElementById('result5').innerHTML = "Üstünə basılı saxlıyanda mavi rəng görsənir."
+      document.getElementById('result5').style.backgroundColor = "blue"
+    }
+
+    function elementOnmouseMove(e) {
+      var x = e.clientX;
+      var y = e.clientY;
+      document.getElementById('result6').innerHTML = "Kordinatlar:" + "X:" + x + " " + "Y:" + y;
+      document.getElementById('result6').style.backgroundColor = `#${x}${y}`;
+    }
+
+  </script>
+</body>
+</html>

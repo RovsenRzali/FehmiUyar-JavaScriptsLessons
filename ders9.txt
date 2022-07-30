@@ -9,7 +9,7 @@
 
 * JS statementler umumilikde Js kodu olaraq adlandirilir.
 
-* noqteli vergule ayrildigi zaman bir stirde birden cox koda yazmaq olar.
+* noqteli vergule ayrildigi zaman bir stirde birden cox kod yazmaq olar.
 
 * Web de noqteli vergule bitmeyen Js kodlari gore bilersiniz.
   Amma siz mutleq noqteli vergul istifade edin.

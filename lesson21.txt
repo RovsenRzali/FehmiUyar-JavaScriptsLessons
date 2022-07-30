@@ -1,0 +1,25 @@
+>>>>> JavaScript Events <<<<<
+
+* Js HTML səhifələrində istifadə edildiyində,
+   Js bu etkinliklər üzərində işlər görə bilir. (onload)
+
+* Bir HTML event brauzerin və ya istifadəçinin etdiyi bir şey ola bilər.
+
+* HTML event-lərin bəzi nümunələri bunlardır:
+  - Bir HTML web səhifəsi yüklənib tamalandığında
+  - HTML giriş sahəsi dəyişdirildiyində
+  - Bir HTML düyməsi tıklandığında
+
+
+  >>>>> Common HTML Events <<<<<<
+
+  Event          DEscription
+
+  onchange       Bit HTML elemnti dəyişdirildiyində
+  onclick        İstifadəçi tərəfindən HTML elementı tıklandığında
+  onmouseover    İstifadəçi mouse-u bit HTML elementinin üzərinə gətirdiyində
+  onmouseout     İstifadəçi mouse-u bir HTML elementi üzərindən uzaqlaşdırdığında
+  onkeydown      İStifadəçi bir klaviatura tuşuna basdığında.
+  onload         Brauzer səhifəni yükləməyi bitirdiyində
+
+  on....buna aid eventlər varki bunlara html-də baxmaq olar.
