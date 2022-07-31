@@ -12,6 +12,10 @@
   <p id="result3"></p>
   <p id="result4"></p>
   <p id="result5"></p>
+  <p id="result6"></p>
+  <p id="result7"></p>
+  <p id="result8"></p>
+  <p id="result9"></p>
 
   <script>
     function printScreen() {
@@ -29,9 +33,15 @@
       if (text.indexOf("Python") == -1) {
         document.getElementById('result3').innerHTML = "Axtardığınız söz tapılmadı."
       }
-      
+
       document.getElementById('result4').innerHTML = text.indexOf("Angular",13);
       document.getElementById('result5').innerHTML = text.search("React");
+
+      var text2 = "Javascript, Angular.Js, React.Js, Js, Vue.Js";
+      document.getElementById('result6').innerHTML = text2.slice(-32,-20);
+      document.getElementById('result7').innerHTML = text2.substring(23);
+      document.getElementById('result8').innerHTML = text2.substr(23,9);//2ci parametr 23cü konumdan sonra neçə xarakter göstəriləcəyini bildirir.
+      document.getElementById('result9').innerHTML = text2.replace("Javascript", "Dəyişdi");
 
 
   </script>

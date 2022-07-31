@@ -38,14 +38,29 @@
   - substring (start, end)
   - substr (start, length)
 
-1. slice() metodu:
-   -slice(), bir string-dən bir bölüm çığardır və ayrılan bölüm ilə yeni bir string yaradır.
-   -bu metod 2 parametr qəbul edir: başlağıc və bitiş konumu.
-   -bir parametr negativdisə, konum stringin sonundan sayılır.
-   -ikinci parametri unutsanız, metod stringin yerdə qalanını dilimləyəcəkdir.
+    1. slice() metodu:
+       -slice(), bir string-dən bir bölüm çığardır və ayrılan bölüm ilə yeni bir string yaradır.
+       -bu metod 2 parametr qəbul edir: başlağıc və bitiş konumu.
+       -bir parametr negativdisə, konum stringin sonundan sayılır.
+       -ikinci parametri unutsanız, metod stringin yerdə qalanını dilimləyəcəkdir.
 
-2. substring() metodu:
-   -substring(), slice() bir-birinə oxşayır.
-   -fərq substring(), neqativ indeksləri qəbul etmir.
-   -ikinci parametri unutsanız substring() massivin yerdə qalanını dilimləmiyəcək.
-   
+    2. substring() metodu:
+       -substring(), slice() bir-birinə oxşayır.
+       -fərq substring(), neqativ indeksləri qəbul etmir.
+       -ikinci parametri unutsanız substring() massivin yerdə qalanını dilimliyəcək.
+
+    3. substr() metodu:
+       - substr(), slice() ilə oxşardır.
+       - fərq ikinci parametrin çıxarılan hissənin uzunluğunu göstərməsi olmasıdır.
+       - ilk parametr neqativdisə, konumu dizinin sonundan sayar.
+       - ikinci parametr neqativ ola bilməz, çünki uzunluğu tanımlar.
+       - ikinci parametri unutsanız, substr() massivin yerdə qalanı dilimləyəcəktir.
+
+* replace() metodu müəyyən olunan dəyərin bir string-dəki başqa bir dəyərlə dəyişdirilməsini
+  həyata keçirir.
+
+* replace() metodu çağrıldığında stringi dəyişdirməz. Yeni bir string göstərər.
+
+* Default olaraq, replace() metodu yalnızca ilk uyğunluğu dəyişdirir.
+
+* Default olaraq replace() metodu böyük-kiçik hərfə həssasdır.
