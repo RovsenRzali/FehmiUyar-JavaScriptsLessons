@@ -11,3 +11,10 @@ lesson19 - JavaScript Objects.
 lesson20 - Global and Local variables
 
 lesson21 - Events
+
+lesson22 - JavaScript Strings Methods
+
+lesson23 - JavaScript Strings Methods
+
+
+
