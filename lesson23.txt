@@ -1,0 +1,51 @@
+>>>>> JavaScript Strings <<<<<<<
+
+* Obyektlər müqayisə edilə bilməz.
+
+* String metodlar string-lərlə işləməyimizə kömək olur.
+
+* "fehmiyuyar.net" kimi ilkel dəyərlər, özəlik və ya metodlara sahib olmazlar.
+  Çünki obyekt deillər.
+
+* JS ilə metodlar və özəlliklər ilkel dəyərləri içində mövcudular,
+  çünki JS, metodları və özəllikləri işlədilərkən ilkel dyərləri obyekt olaraq görər.
+
+* indexOf() metodu bir string-də bildirilən mətnin ilk mövcud olduğu
+ yerin konumunu göstərər.
+
+* lastİndexOf() metodu bir strind-də bildirilən bir mətnin son bulunduğu yerin
+  konumunu göstərir.
+
+* Mətn tapılmazsa indexOf() və lastİndexOf() metodları -1 dəyərini göstərər.
+
+* Js konumları 0 olaraq sayır.
+  0 massivdəki ilk konumdur. 1 ikincidir. 2 üçüncüdür.
+
+* Hər 2 metod da axtarmaq üçün başlağıc konumu olaraq ikinci bir parametr qəbul edər.
+
+* search () funksiyası bir string-i müəyyən edilən bir dəyər üçün axtarar və
+  uyğun konumu göstərər.
+
+* indexOf() və search() metodları bərabərdirmi? Eyni parametrləri qəbul edirlər və
+  eyni dəyəri göstərirlərmi?
+  - 2 metod həddən çox bərabərdir amma fərqlilikləri var.
+  - search() metodu ikinci bir başlağıc konumu argumanı alamaz.
+  - search() metodu daha güclü arama dəyərləri (normal ifadələr) alanilər.
+
+* String-leri bölümlərə ayırmaq üçün 3 ədət metod istifadə edilir.
+
+  - slice (start,end)
+  - substring (start, end)
+  - substr (start, length)
+
+1. slice() metodu:
+   -slice(), bir string-dən bir bölüm çığardır və ayrılan bölüm ilə yeni bir string yaradır.
+   -bu metod 2 parametr qəbul edir: başlağıc və bitiş konumu.
+   -bir parametr negativdisə, konum stringin sonundan sayılır.
+   -ikinci parametri unutsanız, metod stringin yerdə qalanını dilimləyəcəkdir.
+
+2. substring() metodu:
+   -substring(), slice() bir-birinə oxşayır.
+   -fərq substring(), neqativ indeksləri qəbul etmir.
+   -ikinci parametri unutsanız substring() massivin yerdə qalanını dilimləmiyəcək.
+   

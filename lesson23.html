@@ -7,6 +7,34 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <p id="result"></p>
+  <p id="result2"></p>
+  <p id="result3"></p>
+  <p id="result4"></p>
+  <p id="result5"></p>
+
+  <script>
+    function printScreen() {
+      var text =  new String("Javascript");
+      var x = new String("Javascript");
+      document.getElementById('result').innerHTML = (text==x);
+      //document.getElementById('result2').innerHTML = text.length;
+    }
+
+    printScreen()
+
+    var text = "Javascript.Js, Angular.Js, React.Js, Js, Vue.Js";
+      document.getElementById('result2').innerHTML = text.indexOf("Angular");
+
+      if (text.indexOf("Python") == -1) {
+        document.getElementById('result3').innerHTML = "Axtardığınız söz tapılmadı."
+      }
+      
+      document.getElementById('result4').innerHTML = text.indexOf("Angular",13);
+      document.getElementById('result5').innerHTML = text.search("React");
+
+
+  </script>
+
 </body>
 </html>
