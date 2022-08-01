@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="result"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <p id="result5"></p>
+    <p id="result6"></p>
+    <p id="result7"></p>
+    <p id="result8"></p>
+    <p id="result9"></p>
+
+    <script>
+      function printScreen() {
+        var text = "Javascript.Js, Angular.JS, React.JS, JS, Vue.JS";
+        document.getElementById("result").innerHTML = text.replace("Javascript","Dəyişdi");
+        document.getElementById("result2").innerHTML = text.replace(/js/i,"Dəyişdi");
+        /* /js/i - bur formada yazanda repalce() metodu böyük həriflə kiçik hərf arasında fərq qoymadan
+           dəyişdirir */
+        document.getElementById("result3").innerHTML = text.replace(/js/gi,"Dəyişdi");
+        /* g- hamısını dəyişdir, i - ni əlavə edəndə böyük kiçik hərd fərqi olmadan hamısını
+              dəyişdir deməkdir. */
+      }
+
+      printScreen()
+
+      var text2 = "Javascript.Js, Angular.JS, React.JS, JS, Vue.JS";
+      var text3 = "JQUERY, Node.js"
+      document.getElementById("result4").innerHTML = text2.concat(", ",text3)
+
+
+    </script>
+  </body>
+</html>

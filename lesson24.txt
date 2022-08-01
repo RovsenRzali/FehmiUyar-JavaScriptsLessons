@@ -1,0 +1,28 @@
+>>>>>> JavaScript Strings Methods <<<<<<
+
+* /js/i - bur formada yazanda repalce() metodu böyük həriflə kiçik hərf arasında fərq qoymadan
+           dəyişdirir. js yerinə dəyişdirmək istədiyimiz xarakteri yaza bilərik.
+
+* /Js/gi - bu formada yazanda repalce() metodu hamısın dəyişdirir həm də "i" olduğuna görə böyük kiçik
+  hərf həssaslığı olmadan.
+
+* toUpperCase() - böyük hərfə çevir.
+
+* toLowerCase() - kiçik hərfə çevir.
+
+* concat() - 2 və daha çox string-i birləşdir.
+
+* concat() - "+" operatorunun yerinə işlədilə bilər.
+             Bu iki kod eyni işi görür.
+
+* Bütün string metodları yeni bir string yaradır. Orjinal string-i dəyişdirməzlər.
+
+* String xarakterlərini çeşidləmək üçün 2 güvənli metod var:
+  - charAt      (mövqe)
+  - charCodeAt  (mövqe)
+
+* charAt() metodu:
+  - charAt() metodu, string-dəki müəyyən bir konumdakı(index) xarakteri döndürür.
+
+
+>>>>>> 8ci dəqiqədə qaldım. <<<<<<<

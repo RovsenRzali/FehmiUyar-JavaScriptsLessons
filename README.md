@@ -12,9 +12,13 @@ lesson20 - Global and Local variables
 
 lesson21 - Events
 
-lesson22 - JavaScript Strings Methods
+lesson22 - JavaScript Strings
 
 lesson23 - JavaScript Strings Methods
+
+lesson24 - JavaScript Strings Methods
+
+
 
 
 

@@ -13,7 +13,7 @@
 * indexOf() metodu bir string-də bildirilən mətnin ilk mövcud olduğu
  yerin konumunu göstərər.
 
-* lastİndexOf() metodu bir strind-də bildirilən bir mətnin son bulunduğu yerin
+* lastİndexOf() metodu bir string-də bildirilən bir mətnin son bulunduğu yerin
   konumunu göstərir.
 
 * Mətn tapılmazsa indexOf() və lastİndexOf() metodları -1 dəyərini göstərər.
@@ -30,9 +30,9 @@
   eyni dəyəri göstərirlərmi?
   - 2 metod həddən çox bərabərdir amma fərqlilikləri var.
   - search() metodu ikinci bir başlağıc konumu argumanı alamaz.
-  - search() metodu daha güclü arama dəyərləri (normal ifadələr) alanilər.
+  - search() metodu daha güclü axtarma dəyərləri (normal ifadələr) alabilər.
 
-* String-leri bölümlərə ayırmaq üçün 3 ədət metod istifadə edilir.
+* String-ləri bölümlərə ayırmaq üçün 3 ədət metod istifadə edilir.
 
   - slice (start,end)
   - substring (start, end)

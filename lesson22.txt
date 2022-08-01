@@ -12,7 +12,7 @@
 
 * Bir string-in uzunluğu "length" koduyla tapıla bilər.
 
-* String-lər dırnaq içində yazılmalıdır, yoxsa Js yanlış anlar.
+* String-lər dırnaq içində yazılmalıdır, yoxsa Js bunu səhv kimi qəbul edər.
   Bu problemin həlli üçün \ escape xarakteri istifadə edilir.
 
 * Ancaq string-lər "new" keyword-u ilə bir obyekt kimi tanımlanabilər.
