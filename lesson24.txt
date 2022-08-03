@@ -18,11 +18,12 @@
 * Bütün string metodları yeni bir string yaradır. Orjinal string-i dəyişdirməzlər.
 
 * String xarakterlərini çeşidləmək üçün 2 güvənli metod var:
-  - charAt      (mövqe)
-  - charCodeAt  (mövqe)
+  - charAt      (verilmiş index-də olan xarakteri göstərir)
+  - charCodeAt  (verilmiş index-də olan xarakterin unicode-nu göstərir.)
 
 * charAt() metodu:
   - charAt() metodu, string-dəki müəyyən bir konumdakı(index) xarakteri döndürür.
 
+* Bir string, split() metodu ilə bir massivə çevrilə bilir.
 
->>>>>> 8ci dəqiqədə qaldım. <<<<<<<
+

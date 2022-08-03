@@ -32,8 +32,24 @@
       printScreen()
 
       var text2 = "Javascript.Js, Angular.JS, React.JS, JS, Vue.JS";
-      var text3 = "JQUERY, Node.js"
-      document.getElementById("result4").innerHTML = text2.concat(", ",text3)
+      var text3 = "JQUERY, Node.js";
+      var text4 = "Javascript.Js,Angular.JS,React.JS, JS,Vue.JS"
+      document.getElementById("result4").innerHTML = text2.concat(", ",text3);
+      document.getElementById("result5").innerHTML = "Verilmiş index-deki xarakter:" + text2.charCodeAt(0);
+
+      var arrayList = text4.split("-")
+      document.getElementById("result6").innerHTML = arrayList[0];
+
+      var date = "13.11.2018"
+      var dateList = date.split(".")
+      document.getElementById('result7').innerHTML = dateList[2]
+
+      if (dateList[1] == 11) {
+        document.getElementById('result8').innerHTML = dateList[0] + "-Noyabır-" + dateList[2]
+
+      }
+
+
 
 
     </script>
