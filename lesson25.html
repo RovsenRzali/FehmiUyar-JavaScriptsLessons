@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="result"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <input type="text" placeholder="Sadəcə rəqəm daxil edin" id="Number">
+    <button onclick="numberControl()">Control</button>
+    <p id="result5"></p>
+    <p id="result6"></p>
+    <p id="result7"></p>
+    <p id="result8"></p>
+    <p id="result9"></p>
+
+    <script>
+
+      function printScreen() {
+        var x = 7;  // number=integer=tam sayılar. qısa sayılar short
+        var y = 3.14;  // number=float, double onluq sayılar
+        var a = 12e4;   // uzun sayılar = short
+        var b = 12e-4;
+        var c = 9999999999999999;
+        var e = 999999999999999;
+        // Js- də sadəcə number var. short, long, və.s sayl növləri digər proqramlaşdırma dillərindədi.
+        document.getElementById('result').innerHTML = typeof b;
+        document.getElementById('result2').innerHTML = c + e;
+      }
+      printScreen()
+
+      document.getElementById('result3').innerHTML = "Nəticə:" + 10 + 90;
+
+      var f = "Js";
+      document.getElementById('result4').innerHTML = isNaN(f); // bu rəqəm deil?
+
+      function numberControl() {
+        var x = document.getElementById('Number').value;
+        if(isNaN(x)) {
+          document.getElementById('result5').innerHTML = "Yalnız reqem daxil edin." + x;
+        } else {
+          document.getElementById('result5').innerHTML = "Tebrikler duzgun daxil etdiniz." + x;
+        }
+      }
+
+
+    </script>
+</body>
+</html>

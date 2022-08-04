@@ -1,0 +1,34 @@
+>>>>>>> JavaScript Numbers <<<<<
+
+* JavaScript böyük və ya ekstra kiçik sayılar üstel göstərimlə yazıla bilər.
+
+* Digər bir çox programlama dilindən fərqli olaraq JavaScript, tamsayılar, short,
+  long, float və.s kimi fərqli sayı növlərini tanımır.
+
+* Tamsayılar 15 reqeme qederdir.
+
+* Maksimum onluq sayı 17 pillədir. Ancaq onluq sayıların aritmetik işləm sonuçları
+  hər zaman 100% doğru deyildir. Onluq sayıları hesablamaq üçün onları tam sayılara çevirib
+  hesablayıb sora onluq sayıya çeviririk.
+
+* Js-də string-dən sonra yazdığımız hər cür number növü string olaraq qəbul edilir.
+
+* Js-də string-in içində rəqəm ola bilər.
+
+* Js bütün rəqəmsal hesablamalarda stringləri number-lara çevirməyə çalışacaq.
+  "+"-dan başqa.
+
+* NaN bir  nömrənin Js-də qəbul edilən bir nömrə olmadığını bidlirən bir kəlimədir.
+
+* Rəqəm olmayan bir string ilə aritmetik hesablama etmək, NaN ilə nəticələnir. Əgər string bir
+ rəqəm dəyərinə sahibdirsə nəticə bir rəqəm olacaq.
+
+* Bir səyərin rəqəm olub-olmadığını öyrənmək üçün ümumi Js funksiyası "isNaN()" istifadə edə bilərsiniz.
+
+* Əgər NaN-ı riyazi bir hesablamada istifadə etsəniz nitəcə də NaN olacaqdır.
+
+* NaN bir sayı növüdür. Yni typeof-u numberd-dır.
+
+* Infinity(vəya  -Ininity) mümkün bir rəqəm xaricində bir hesablama etsəniz
+  Js-in göstərəcəyi dəyərdir.
+
