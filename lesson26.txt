@@ -1,0 +1,20 @@
+>>>>>> JavaScript Numbers <<<<<
+
+* Bir rəqəmi 0-a bölsək İnfinity nəticəsin əldə edərik.
+
+* İnfinity bir rəqəmdir.
+
+* Js-də hexadecimal rəqəmlərin istifadəsi necədir?
+
+* İlk rəqəmi sıfır olan bir rəqəm (07) yazmıyın. Bəzi Js-sürümləri əvvəldə gələn sıfırlarla
+  yazıldısa rəqəmləri səkkizlik olaraq yorumlar.
+
+*  Default olaraq JS rəqəmləri 10-luq saysistemi olaraq göstərir.
+
+* Rəqəmləri 16h(hex)-l;q saysistemi 8li(octal) saysistemi və ya 2li (binary) saysistemi olaraq seçmək üçün
+  toString()  üsuluni istifadə edə bilərsiniz.
+
+* Rəqəmlər obyekt ola bilər.
+
+* Normalda Js rəqəmləri dəyişməzlərdən yaradılan ilk rəqəmlərdir: Amma rəqəmlər
+  new keyword-u ilə obyekt olaraq tanımlana bilər.

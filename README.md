@@ -18,6 +18,10 @@ lesson23 - JavaScript Strings Methods
 
 lesson24 - JavaScript Strings Methods
 
+lesson25 - JavaScript Numbers
+
+lesson26 - JavaScripts Number data type
+
 
 
 

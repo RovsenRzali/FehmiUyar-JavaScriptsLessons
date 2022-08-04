@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="result"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <!-- <input type="text" placeholder="Sadəcə rəqəm daxil edin" id="Number">
+  <button onclick="numberControl()">Control</button> -->
+    <p id="result5"></p>
+    <p id="result6"></p>
+    <p id="result7"></p>
+    <p id="result8"></p>
+    <p id="result9"></p>
+
+    <script>
+      function printScreen() {
+        var x = 70 / 0;
+        var y = -70 / 0;
+        document.getElementById("result").innerHTML = x + "<br>" + y;
+      }
+      printScreen();
+
+      document.getElementById("result2").innerHTML = typeof Infinity;
+
+      var x = 128; // 10-luq saysistemi
+      var y = x.toString(16); // 16-lıq say sistemi
+      var z = x.toString(8); // 8-lik saysistemi
+      var a = x.toString(2); // 2-lik saysistemi
+      document.getElementById("result3").innerHTML = y + "  " + z + " " + a;
+      var b = new Number(700);
+      var c = 700
+      document.getElementById("result4").innerHTML = typeof b + ", " + (c==b) + "," + (c===b);
+    </script>
+  </body>
+</html>
