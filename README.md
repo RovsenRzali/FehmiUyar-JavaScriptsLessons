@@ -22,6 +22,8 @@ lesson25 - JavaScript Numbers
 
 lesson26 - JavaScripts Number data type
 
+lesson27 - JavaScript Number Methods
+
 
 
 

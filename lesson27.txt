@@ -1,0 +1,13 @@
+>>>>> JavaScript Number Methods <<<<<<
+
+* Js ilə  metodlar və özəlliklər primitiv dəyərlər üçündə mövcuttur, 
+  şünki Js metodları və özəllikləri işlədərkən primitiv dəyərləri  obyektler olaraq
+  görər.
+
+* toString() metodu:
+   - toString () bir sayını string-ə çevirir.
+
+* toExponential() metodu
+
+* toFixed() təyin olunmuş sayıda onluq sayını bir string-ə çevirir.
+

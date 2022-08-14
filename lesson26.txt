@@ -1,4 +1,4 @@
->>>>>> JavaScript Numbers <<<<<
+>>>>>> JavaScript Numbers <<<<<<
 
 * Bir rəqəmi 0-a bölsək İnfinity nəticəsin əldə edərik.
 
