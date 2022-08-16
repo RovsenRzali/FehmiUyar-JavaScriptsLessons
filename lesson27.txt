@@ -11,3 +11,5 @@
 
 * toFixed() təyin olunmuş sayıda onluq sayını bir string-ə çevirir.
 
+* toPrecision(), təyin olunmu. uzunluqda bir sayını bir string-ə çevirir.
+

@@ -1,0 +1,35 @@
+ >>>>>>> JavaScript Number Methods <<<<<<<
+
+* valueOf() metodu
+  - valueOf() bir sayını yenə bir sayıra çevirir.
+  - valueOf() metodu, number obyektlərini primitiv dəyərlərə çevirmək üçün Js-də
+    daxili olaraq istifadə edilir.
+
+* Bütün Js data types-ların bir valueOf() və bir toString() metodu vardır.
+
+* Dəyişkənləri sayılara çevirmək  üçün istifad' olunan 3 Js metodu vardır:
+
+  - Number() metodu
+  - parseInt() metodu = parse(parçalanma) integer(tam sayı) 
+  - parseFloat() metodu = parse(parçalanma) float(onluq sayı)
+
+* Bu  metodlar Number metodları deyil, global Js metodlarıdır.
+
+* Global metodlar
+
+* Js metodları, bütün Js data types-larda istifadə edilə bilər.
+
+* Rəqəmlərlə çalışarkən ən uyğun metodlar bunlardır.
+
+  - Number() Js dəyişkələri sayılara çevirmək üçün istifadə edilə bilər.
+  - parseFloat()  müstəqil dəyişkəni parçalıyır və onluq sayı verir.
+  - parseInt() müstəqil dəyişkəni parçalıyır və bir tam sayı göstərir.
+
+
+ >>>>>>> Number Properties <<<<<<<<
+
+  MAX_VALUE  Js-də mümkün olan en böyük sayını çap edir.
+  MİN_VALUE  Js-də mümkün olan ən kiçik sayını çap edir.
+  NEGATİVE İNFİNİTY Negativ sonsuzluğu çap edir.
+  NaN   ----  "Not-a-Number" dəyərini göstərir.
+  POISITIVE INFINITY  pozitif sonsuzluğu geri çap edir.  
