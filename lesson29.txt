@@ -1,0 +1,25 @@
+>>>>>> JAvaScript Math Objects <<<<<<
+
+* Math.PI--p ədədini çap edir.
+
+* Math.round(x)-- X dəyişkənini ən yaxın tam sayıya yuvarlaqlaşdırır.
+
+* Math.pow (x,y) -- x üstü y dəyərinin çap edir.
+
+* Math.sqrt -- ədədin kökaltısını verir.
+ 
+* Math.abs() -- ədədin modulunu verir.
+
+* Math.ceil() -- ən yuxarı tam ədəd yuvarlaqlaşdırır.
+
+* Math.floor() -- ən yaxın aşağı tam ədədə yuvarlaqlaşdırır.
+
+* Math.sin() -- x-in radyan sinusunu (-1 ilə 1 arasında) çap edir.
+                əgər radayan əvəzinə dərəcə yazasaq gərək dərəcəni radyana çevirək.
+
+* Math.cos() -- x-in radayan cosinusunu (-1 ilə 1 arasında) çap edir).
+                əgər radayan əvəzinə dərəcə yazasaq gərək dərəcəni radyana çevirək
+
+* Math.
+
+* Math.
