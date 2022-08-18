@@ -28,6 +28,8 @@ lesson28 - JavaScript Number Methods and properties
 
 lesson29 - JAvaScript Math Objects
 
+lesson30 - JAvaScript Math Objects
+
 
 
 

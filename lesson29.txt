@@ -20,6 +20,3 @@
 * Math.cos() -- x-in radayan cosinusunu (-1 ilə 1 arasında) çap edir).
                 əgər radayan əvəzinə dərəcə yazasaq gərək dərəcəni radyana çevirək
 
-* Math.
-
-* Math.

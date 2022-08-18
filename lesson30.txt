@@ -1,0 +1,28 @@
+>>>>>> JavaScript Math Object <<<<<
+
+* Math.random(), 0(daxil olmaqla) ilə 1(xaric) arasında tesadüfi bir rəqəm göstərir.
+
+* Js riyazi hesablamalar üçün 8 riyazi sabit təklif edir:
+  
+  - Math.E          Euler sayı
+  - Math.PI  
+  - Math.SQRT2      2-nin kökaltısı 
+  - Math.SQRT1_2    1/2 nin kökaltısı
+  - Math.LN2     
+  - Math.LN10
+  - Math.LOG2E     E-nin logarifma 2 əsasında dəyəri
+  - Math.LOG10W
+
+* Digər obyektlərdən fərqli olaraq Math obyektinin konstruktoru yoxdur. Metodlar və sabitlər statikdir.
+
+* Bütün metodlardan və obyektlərdən əvvəldə bir Math obyekti yaratmadan istifadə oluna bilər.
+  
+  - abs() -- ədədin modulunu verir.
+
+  - asin() -- x-in arcsinusunu radyan dəyərində çap edir.
+                əgər radayan əvəzinə dərəcə yazasaq gərək dərəcəni radyana çevirək.
+
+  - acos() -- x-in arccosinusunu (-1 ilə 1 arasında) radyan dəyərində  çap edir.
+                əgər radayan əvəzinə dərəcə yazasaq gərək dərəcəni radyana çevirək
+
+  

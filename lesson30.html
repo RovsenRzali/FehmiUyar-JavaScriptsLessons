@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math objects</title>
+  </head>
+  <body>
+    <p id="result"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <!-- <input type="text" placeholder="Sadəcə rəqəm daxil edin" id="Number">
+  <button onclick="numberControl()">Control</button> -->
+    <p id="result5"></p>
+    <button type="button" onclick="RanNum()">Random number</button>
+    <p id="result6"></p>
+    <button type="button" onclick="show(1,10)">GetRandom</button>
+    <p id="result7"></p>
+    <p id="result8"></p>
+    <p id="result9"></p>
+
+    <script>
+      var x = 128;
+      document.getElementById("result3").innerHTML =
+        Math.E +
+        "<br>" +
+        Math.PI +
+        "<br>" +
+        Math.SQRT2 +
+        "<br>" +
+        Math.SQRT1_2 +
+        "<br>" +
+        Math.LN2 +
+        "<br>" +
+        Math.LN10 +
+        "<br>" +
+        Math.LOG2E +
+        "<br>" + // 7 ilə 60 arasında boşluq olduğu üçün Number metodu onu rəqəmə çevirə bilmir.
+        Math.random() +
+        "<br>"; // bur dada hərflər rəqəmə çevrilmir.
+
+      document.getElementById("result4").innerHTML = Math.floor(
+        10 * Math.random()
+      );
+
+      function RanNum() {
+        document.getElementById("result5").innerHTML =
+          Math.floor(10 * Math.random()) + 1;
+      }
+
+      function getRandom(min, max) {
+        return Math.floor(Math.random() * max) + min;
+      }
+
+      function show(p1,p2) {
+        document.getElementById("result6").innerHTML = getRandom(p1,p2);
+      }
+    </script>
+  </body>
+</html>
