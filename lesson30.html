@@ -11,8 +11,6 @@
     <p id="result2"></p>
     <p id="result3"></p>
     <p id="result4"></p>
-    <!-- <input type="text" placeholder="Sadəcə rəqəm daxil edin" id="Number">
-  <button onclick="numberControl()">Control</button> -->
     <p id="result5"></p>
     <button type="button" onclick="RanNum()">Random number</button>
     <p id="result6"></p>
@@ -37,9 +35,9 @@
         Math.LN10 +
         "<br>" +
         Math.LOG2E +
-        "<br>" + // 7 ilə 60 arasında boşluq olduğu üçün Number metodu onu rəqəmə çevirə bilmir.
+        "<br>" + 
         Math.random() +
-        "<br>"; // bur dada hərflər rəqəmə çevrilmir.
+        "<br>";
 
       document.getElementById("result4").innerHTML = Math.floor(
         10 * Math.random()

@@ -17,12 +17,12 @@
 
 * Bütün metodlardan və obyektlərdən əvvəldə bir Math obyekti yaratmadan istifadə oluna bilər.
   
-  - abs() -- ədədin modulunu verir.
+  - abs()  -- ədədin modulunu verir.
 
   - asin() -- x-in arcsinusunu radyan dəyərində çap edir.
                 əgər radayan əvəzinə dərəcə yazasaq gərək dərəcəni radyana çevirək.
 
   - acos() -- x-in arccosinusunu (-1 ilə 1 arasında) radyan dəyərində  çap edir.
-                əgər radayan əvəzinə dərəcə yazasaq gərək dərəcəni radyana çevirək
+                əgər radayan əvəzinə dərəcə yazasaq gərək dərəcəni radyana çevirək.
 
   

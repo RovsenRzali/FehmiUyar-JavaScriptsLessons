@@ -11,7 +11,7 @@
 
 *  Default olaraq JS rəqəmləri 10-luq saysistemi olaraq göstərir.
 
-* Rəqəmləri 16h(hex)-l;q saysistemi 8li(octal) saysistemi və ya 2li (binary) saysistemi olaraq seçmək üçün
+* Rəqəmləri 16h(hex)-lıq saysistemi 8li(octal) saysistemi və ya 2li (binary) saysistemi olaraq seçmək üçün
   toString()  üsuluni istifadə edə bilərsiniz.
 
 * Rəqəmlər obyekt ola bilər.

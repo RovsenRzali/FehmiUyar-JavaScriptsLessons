@@ -23,11 +23,11 @@
 * Rəqəm olmayan bir string ilə aritmetik hesablama etmək, NaN ilə nəticələnir. Əgər string bir
  rəqəm dəyərinə sahibdirsə nəticə bir rəqəm olacaq.
 
-* Bir səyərin rəqəm olub-olmadığını öyrənmək üçün ümumi Js funksiyası "isNaN()" istifadə edə bilərsiniz.
+* Bir dəyərin rəqəm olub-olmadığını öyrənmək üçün ümumi Js funksiyası "isNaN()" istifadə edə bilərsiniz.
 
 * Əgər NaN-ı riyazi bir hesablamada istifadə etsəniz nitəcə də NaN olacaqdır.
 
-* NaN bir sayı növüdür. Yni typeof-u numberd-dır.
+* NaN bir sayı növüdür. Yəni typeof-u numberd-dır.
 
 * Infinity(vəya  -Ininity) mümkün bir rəqəm xaricində bir hesablama etsəniz
   Js-in göstərəcəyi dəyərdir.

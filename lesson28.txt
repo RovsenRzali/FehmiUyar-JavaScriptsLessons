@@ -2,8 +2,8 @@
 
 * valueOf() metodu
   - valueOf() bir sayını yenə bir sayıra çevirir.
-  - valueOf() metodu, number obyektlərini primitiv dəyərlərə çevirmək üçün Js-də
-    daxili olaraq istifadə edilir.
+  - valueOf() metodu, number obyektlərini primitiv dəyərlərə çevirmək
+    üçün Js-dəmdaxili olaraq istifadə edilir.
 
 * Bütün Js data types-ların bir valueOf() və bir toString() metodu vardır.
 

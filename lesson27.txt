@@ -1,7 +1,7 @@
 >>>>> JavaScript Number Methods <<<<<<
 
 * Js ilə  metodlar və özəlliklər primitiv dəyərlər üçündə mövcuttur, 
-  şünki Js metodları və özəllikləri işlədərkən primitiv dəyərləri  obyektler olaraq
+  çünki Js metodları və özəllikləri işlədərkən primitiv dəyərləri  obyektler olaraq
   görər.
 
 * toString() metodu:
@@ -11,5 +11,5 @@
 
 * toFixed() təyin olunmuş sayıda onluq sayını bir string-ə çevirir.
 
-* toPrecision(), təyin olunmu. uzunluqda bir sayını bir string-ə çevirir.
+* toPrecision(), təyin olunmuş uzunluqda bir sayını bir string-ə çevirir.
 
