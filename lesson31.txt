@@ -1,0 +1,61 @@
+>>>>>> JavaScript Dates <<<<<<<
+
+* Date obyekti tarixlərlə (illər,aylar,günlər,saatlar,dəqiqələr,
+  saniyələr və milisaniyələr) çalışmağımıza imkan yaradar.
+
+* Bir JavaScript tarixi string olaraq yazıla bilər:
+
+* 15 noyabır 2018  12:27:58 GMT +0400
+
+* və ya sayı olaraq:
+
+* 1506763678782
+
+* Tarixlər, 1 yanvar 1970 dən (00:00:00) bu yana milisaniyə sayısıyla yazılmışdır.
+
+* Date bir il, bir ay, bir gün, bir saat, bir dəqiqə, bir saniyə və milisaniyədən ibarətdir.
+
+* Tarix obyektləri, new Date () constructor ilə yaradılır.
+
+* Bir Date başlatmanın 4 yolu vardır:
+  - new Date()
+  - new Date(milliseconds)
+  - new Date(dateString)
+  - new Date(year,month,day,hours,minutes,seconds,milliseconds)
+
+* JavaScript tarixləri   01 yanvar 1970 dən 00:00:00 UTC arasındakı
+  milisaniyə cinsindən hesablanır. Bir gün 86.400.000 milisaniyəyə bərabərdir.
+
+* JavaScript ayları 0-dan 11-ə qədər sayar. Yanvar ayı 0-dır, dekabır 11-dir.
+
+* HTML-də bir date obyekti görüntülədiyinzdə, toString() metodu ilə
+  avtomatik olaraq bir string halına çevirə bilərsiniz.
+
+* toUTCString() metodu, bir tarixi UTC string-nə çevirir.
+
+* toDateString() metodu, bir tarixi daha oxunabilər bir formaya çevirir.
+
+* Ümumilikdə 4 növ Js tarix formatı vardır.
+
+  ISO Date        "2018-11-15" (The International Standard)
+  Short Date      "15/11/2018"
+  Long Date       "Aug 22 2022" or "22 Aug 2022"
+  Full Date       "Monday August 22 2022"
+
+* ISO formatı Js-in sıx bir standartını izləməkdədir.
+
+* İSO 8601, tarix və saatların təmsili üçün beynəlxalq standartdır.
+
+* İSO 8601 söz düzülüşü (YYYY-MM-DD) üstünlük verilən Js tarix formasıdır.
+
+* İSO tarixləri saat, dəqiqə və saniyə əlaəv edilərək yazıla bilər (YYYY-MM-DDTHH:MM:SSZ)
+  - tarix və saat böyük T hərifi ilə ayrılır.
+  - UTC saatı böyük Z hərifi ilə müəyyən edilir.
+  - UTC-ə görə zaman özünüz dəyişdirmək istəsəniz Z-ni silin və yerinə +HH : MM və ya -HH : MM əlavə edin
+
+* Əgəz saatı biz yazmasaq brauzer avtomatik özü əlavə edəcək.
+
+* Bəzi brauzerlərdə qarşısında sıfır olmayan aylar və ya günləri bir sıfır ola bilər.
+
+
+
