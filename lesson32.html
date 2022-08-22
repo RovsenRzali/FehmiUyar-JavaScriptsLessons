@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DAtes</title>
+  </head>
+  <body>
+    <p id="result"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <!-- <input type="text" placeholder="Sadəcə rəqəm daxil edin" id="Number">
+  <button onclick="numberControl()">Control</button> -->
+    <p id="result5"></p>
+    <p id="result6"></p>
+    <p id="result7"></p>
+    <p id="result8"></p>
+    <p id="result9"></p>
+
+    <script>
+      function show() {
+        var a = new Date();
+        var d = new Date();
+        document.getElementById("result").innerHTML = a;
+        document.getElementById("result2").innerHTML = d.getDay();
+      }
+      show();
+
+      var x = new Date();
+      var y = new Date();
+      var z = new Date();
+      var b = new Date();
+      var c = new Date();
+
+      document.getElementById("result3").innerHTML =
+        "Year: " +
+        x.getFullYear() +
+        "<br>" +
+        "Month: " +
+        x.getMonth() +
+        "<br>" +
+        "Day: " +
+        x.getDay() +
+        "<br>" +
+        "Hours:" +
+        y.getHours() +
+        " :" +
+        "Minutes:" +
+        z.getMinutes() +
+        ":" +
+        "Seconds:" +
+        z.getSeconds() +
+        "<br>" +
+        "Milliseconds: " +
+        b.getMilliseconds() +
+        "<br>" +
+        "Time: " +
+        c.getTime();
+
+      function showWeekDay() {
+        var d = new Date();
+        var days = [
+          "Bazar",
+          "Bazarertəsi",
+          "Çərşənbə axşamı",
+          "Çərşənbə",
+          "Cümə axşamı",
+          "Cümə",
+          "Şənbə",
+        ];
+        document.getElementById("result5").innerHTML = days[d.getDay()];
+      }
+      showWeekDay();
+
+      // "Set"-in necə işlədiyin göstərmək üçün nümunə
+      // Set  vasitəsilə istədiyimizi dəyişdirə bilərik
+      function showSet() {
+        var d = new Date();
+        d.setDate("23");
+        d.setHours("22");
+        document.getElementById("result5").innerHTML = d;
+      }
+      showSet();
+
+      var ms = Date.parse("june 21 1970");
+      var e = new Date(ms);
+      document.getElementById("result6").innerHTML = e;
+    </script>
+  </body>
+</html>

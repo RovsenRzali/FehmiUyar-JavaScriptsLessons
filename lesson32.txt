@@ -1,0 +1,39 @@
+>>>>>> JavaScripts Dates Formats<<<<<<
+
+* Tarix metodları tarix dəyərlərini əldə etməyinizi və tənzimləmənizi
+  təmin edir.
+
+* Date get metodları:
+
+  - getDate()     günü sayı olaraq alır(1-31).
+  - getDay()
+  - getFullYear()
+  - getHours()
+  - getMilliseconds()
+  - getMinutes()
+  - getMonth()
+  - getSeconds()
+  - getTime()      Zamanı alır. (1 yanvar 1970-dən indiyə qədər milisaniyə olaraq).
+
+* getDay() metodu həftənin günlərini  0-6 olaraq çevirir.
+  Js-də həftənin  ilk günü Bazar günü 0 olaraq qəbul edilir.
+
+* Date Set metodları: 
+
+  - setDate()     günü sayı olaraq qurar(1-31).
+  - setDay()
+  - setFullYear()
+  - setHours()
+  - setMilliseconds()
+  - setMinutes()
+  - setMonth()
+  - setSeconds()
+  - setTime()      Zamanı alır. (1 yanvar 1970-dən indiyə qədər milisaniyə olaraq).
+
+* Mövcud bir tarix massiviniz varsa, Date.parse () metodunu istifadə edərək
+  millisaniyəyə çevirə bilərsiniz.
+
+* Date.parse() indiki tarix ilə 01 yanvar 1970 arasındakı millisaniyənin sayısını çap edir. 
+  Daha sonra bir tarix obyektinə çevirmək üçün millisaniyənin sayısını istifadə edə bilərsiniz.
+
+* Compare  
