@@ -26,15 +26,15 @@ lesson27 - JavaScript Number Methods
 
 lesson28 - JavaScript Number Methods and properties
 
-lesson29 - JAvaScript Math Objects
+lesson29 - JavaScript Math Objects
 
-lesson30 - JAvaScript Math Objects
+lesson30 - JavaScript Math Objects
 
-lesson31 - JAvaScript Dates
+lesson31 - JavaScript Dates
 
-lesson32 - JAvaScript Dates Formats
+lesson32 - JavaScript Dates Formats
 
-lesson33 - JAvaScript Array Properties and Methods
+lesson33 - JavaScript Array Properties and Methods
 
 
 

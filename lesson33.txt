@@ -1,15 +1,15 @@
 >>>>> JavaScript Arrays <<<<<<
 
-* JS-de array-in yazmaqla beten array-i çağırmaq mümkündür.
+* JS-de array-in adın yazmaqla bütünn array-i çağırmaq mümkündür.
 
-* Array-lər obyektləin xüsusi bir növüdür.
+* Array-lər obyektlərin xüsusi bir növüdür.
 
-* Array-lərin içərisndəkiləri çağırmaq üçün rəqəmlərdən istifadə olunur.
+* Array-lərin içərisindəkiləri çağırmaq üçün rəqəmlərdən istifadə olunur.
 
-* Obyektlərin içərisndəkiləri çağırmaq üçün adları istifadə olunur.
+* Obyektlərin içərisindəkiləri çağırmaq üçün adları istifadə olunur.
 
 * Js dəyişkənləri obyektlər ola bilər. Arrayler xüsusi obyekt növləridir.
-  Bu səbəblrə eyni Array-də fərqli növdə dəyişkənlərə sahib ola bilərsiniz.
+  Bu səbəblə eyni Array-də fərqli növdə dəyişkənlərə sahib ola bilərsiniz.
   - Bir array-də obyektlərə sahib ola bilərsiniz.
   - array-də funksiyalara sahib ola bilərsiniz.
   - Bir array-də array-lərə sahib ola bilərsiniz.
@@ -21,8 +21,6 @@
    myArray[1] = specialFunction;
    myArray[2] = myBooks;
 
- * Js 
-
  * length metodu array-in uzunluğunu verir.
 
  * for vasitəsilə arrayin daxilindəkilərinin hamısın çap etmək mümkündü.
@@ -33,5 +31,5 @@
 
  * yüksək indeksli dəyərlər əlavə etmək bir array-də müəyyən edilməmiş "dəliklər" yarada bilir.
 
- * 
+ 
       
