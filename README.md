@@ -32,6 +32,12 @@ lesson30 - JAvaScript Math Objects
 
 lesson31 - JAvaScript Dates
 
+lesson32 - JAvaScript Dates Formats
+
+lesson33 - JAvaScript Array Properties and Methods
+
+
+
 
 
 
