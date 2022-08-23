@@ -34,7 +34,11 @@ lesson31 - JavaScript Dates
 
 lesson32 - JavaScript Dates Formats
 
-lesson33 - JavaScript Array Properties and Methods
+lesson33 - JavaScript Array Properties and
+           Methods
+
+lesson34 - JavaScript Array Properties and 
+           Methods
 
 
 

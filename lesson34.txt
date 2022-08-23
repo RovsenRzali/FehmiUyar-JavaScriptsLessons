@@ -1,0 +1,37 @@
+>>>>>> Array Properties and Methods <<<<<<<
+
+* yüksək indeksli dəyərlər əlavə etmək bir array-də müəyyən edilməmiş "dəliklər" yarada bilir.
+
+* Js-də new Array () istifadə etməyə ehtiyac yoxdur. Bunun yerinə || işarəsini 
+  istifadə edə bilərsiniz.
+
+* var langs = new Array ();  // səhv istifadə
+  var langs = ||;            // düzgün istifadə
+
+* Bir dəyişkənin array olub olmadığını necə öyrənə bilərəm?
+
+* Solution:
+  - Bu problemin həlli üçün ECMAScript 5 yeni bir Array.isArray() metodu təklif edir.
+  - Bu həll yolunun problemi köhnə brauzerlərdə ECMAScript 5-in dəstəklənməməsidir.
+  - Bu problemi həll etmək üçün öz isArray() funksiyanızı yarada bilərsiniz. Beləliklər Obyekt 
+    prototipin-də "Array" sözü varsa, true çap olunur.
+    instanceof
+
+* Js array-lərin gücü array funksiyalarında gizlənməkdədirş
+
+* toString() metodu bir array-in (vergülə ayrılmış)  dəyərlərini çap edir.
+
+* join () - metodu  array-in bütün dəyərlərini çap edir. toString()-dən fərqi
+            dəyərləri bir-birindən istədiyimiz işarə ilə ayıra bilməyimizdi.
+
+* pop () - bir array-dən son dəyəri silər.
+
+* pop () - çıxarılan dəyəri geri qaytarır.
+
+* push () - array-ə yeni bir dəyər əlavə edər.
+
+* push () - yeni array-in uzunluğun çap edər.
+
+* Shift () - array-in ilk dəyərini silər və digər dəyərləri sola çəkər.
+
+
