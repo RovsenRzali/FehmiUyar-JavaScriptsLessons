@@ -1,0 +1,17 @@
+>>>>>>> JavaScript Sorting Arrays <<<<<<<<<
+
+* sort ()  metodu array-i alfabetik olaraq sıralıyar.
+           Default olaraq sort() funksiyası dəyərləri string-lər olaraq sıralıyır.
+           Bu string-lər üçün daha yaxşı işləyir.
+           Əgər rəqəmlər string-lər olaraq sıralansa 2 dəyəri 1-dən böyük olduğu üçün
+           25, 100-dən böyük qəbul ediləcəktir. Buna görədə sort() metodu rəqəmləri sıralıyarkən
+           səhv nəticə verir.
+
+* reverse () array-dəki dəyərləri tərsinə çevirir.
+
+* Array-ləri təsadüfi sıralaya bilərsiniz.
+
+* Array-i sıraladıqdan sonra max və min dəyərləri tapmaq üçün indeks-dən istifadə edə bilərsiniz.
+
+
+ 
