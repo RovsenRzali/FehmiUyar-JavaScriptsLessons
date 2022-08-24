@@ -40,6 +40,8 @@ lesson33 - JavaScript Array Properties and
 lesson34 - JavaScript Array Properties and 
            Methods
 
+lesson35 - JavaScript Array Methods           
+
 
 
 

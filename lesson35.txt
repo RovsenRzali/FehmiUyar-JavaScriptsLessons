@@ -1,0 +1,21 @@
+>>>>>>>>> JavaScript Array Methods <<<<<<<<
+
+* unshift ()  array-ə yeni bir dəyər əlavə(başlanğıcına) edər 
+              və ya köhnə dəyəri dəyişdirər.
+              Yeni array-in uzunluğunu çap edər.
+
+* delete      istifadə etmək array-də müəyyən edilməyən çatışmazlıqlar yarada bilrə.
+              Onun əvəzində pop() və ya shift () istifadə edə bilərsiniz.
+
+* splice ()   yeni dəyərlər əlavə etmək üçün istifadə oluna bilər.
+              Bu metodla çatışmazlıq yaratmadan dəyərləri silmək olar.
+
+* concat ()   var olan arrayləri birləşdirib, yeni array yaradır.
+              Mövcud olanları dəyişdirməz, yeni array yaradar.
+              Dəyərləri parametr olaraq qəbul edə bilər.
+
+* slice ()    Array-i yeni bir array-ə ayırır.Adından göründüyü kimi dilimləyir.
+              Yeni bir array yaradar, əsas array-də hər hansı dəyəri silməz.
+              Metod daha sonra başlanğıc parametirdən son parametrə qədər(sonuncu parmetr daxil deil)
+              dəyərləri silər.
+
