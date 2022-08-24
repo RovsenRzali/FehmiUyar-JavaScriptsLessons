@@ -1,6 +1,6 @@
 >>>>>> Array Properties and Methods <<<<<<<
 
-* yüksək indeksli dəyərlər əlavə etmək bir array-də müəyyən edilməmiş "dəliklər" yarada bilir.
+* yüksək indeksli dəyərlər əlavə etmək bir array-də müəyyən edilməmiş "çatışmazlıqlar" yarada bilir.
 
 * Js-də new Array () istifadə etməyə ehtiyac yoxdur. Bunun yerinə || işarəsini 
   istifadə edə bilərsiniz.
@@ -11,7 +11,7 @@
 * Bir dəyişkənin array olub olmadığını necə öyrənə bilərəm?
 
 * Solution:
-  - Bu problemin həlli üçün ECMAScript 5 yeni bir Array.isArray() metodu təklif edir.
+  - Bu problemin həlli üçün "ECMAScript 5" yeni bir Array.isArray() metodu təklif edir.
   - Bu həll yolunun problemi köhnə brauzerlərdə ECMAScript 5-in dəstəklənməməsidir.
   - Bu problemi həll etmək üçün öz isArray() funksiyanızı yarada bilərsiniz. Beləliklər Obyekt 
     prototipin-də "Array" sözü varsa, true çap olunur.
