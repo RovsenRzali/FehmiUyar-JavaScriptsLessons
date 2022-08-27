@@ -40,7 +40,13 @@ lesson33 - JavaScript Array Properties and
 lesson34 - JavaScript Array Properties and 
            Methods
 
-lesson35 - JavaScript Array Methods           
+lesson35 - JavaScript Array Methods   
+
+lesson36 - JavaScript Sorting Arrays  
+
+lesson37 - JavaScript Sorting Arrays           
+
+
 
 
 

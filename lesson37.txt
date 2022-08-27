@@ -1,0 +1,14 @@
+>>>>>> JavaScript  Sorting Arrays <<<<<<<
+
+* Array-ləri təsadüfi sıralaya bilərsiniz.
+
+* Array-i sıraladıqdan sonra max və min dəyərləri tapmaq üçün indeks-dən istifadə edə bilərsiniz.
+
+* Array-dəki ən böyük sayını tapmaq üçün Math.max.apply ən kiçik sayını tapmaq üçün
+  Math.min.apply istifadə edə bilərsiniz.
+
+* Js array-lər əksəriyyətən obyektlərdən ibarət olur.
+
+* Obyektlər fərqli dəyərlərə sahib olsalar belə array-i sıralamaq üçün
+  sort() metodu istifadə oluna bilər.
+  
