@@ -1,0 +1,24 @@
+>>>>>>>> JavaScript Booleans <<<<<<<
+
+* Js-də boolean 2 dəyər çap edir: true və ya false.
+
+* Ümumilikdə proqramlaşdırmada yalnızca 2 dəyərdən birinə sahib 
+  olabiləcək bir data types-a ehtiyac duyulur:
+  - yes/no
+  - on/off
+  - true/false
+
+* Bunun üçün Js bir Boolean data types-a sahibdir. Dəyərləri yalnızca 
+  true(doğru) və ya false (yanlış) olabilər.
+
+* Bir ifadənin (vəya dəyişkənin) doğru olub olmadığını öyrənmək üçün 
+  Boolean() metodunu istifadə edə bilərsiniz.
+
+  >>>>> Comparison and Conditions <<<<<< 
+  
+* Bİr ifadənin Boolean dəyəri, bütün Js müqayisə və şərtlərin əsasını təşkil edir.
+
+* Boolean obyektlər yaratmayın. İcra olunma sürətini yavaşladır.
+  new keyword-u söz kodunu çətinləşdirir. Gözlənmədik nəticələr verə bilər.
+
+* Obyektlər müqayisə edilməz.  

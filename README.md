@@ -44,7 +44,9 @@ lesson35 - JavaScript Array Methods
 
 lesson36 - JavaScript Sorting Arrays  
 
-lesson37 - JavaScript Sorting Arrays           
+lesson37 - JavaScript Sorting Arrays    
+
+lesson38 - JavaScript Booleans
 
 
 
