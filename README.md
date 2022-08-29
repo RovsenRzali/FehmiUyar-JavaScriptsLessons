@@ -48,6 +48,9 @@ lesson37 - JavaScript Sorting Arrays
 
 lesson38 - JavaScript Booleans
 
+lesson39 - JavaScript Comparison and Logical Operators
+
+lesson40 - JavaScript Comparison and Logical OPerators 
 
 
 

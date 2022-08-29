@@ -1,0 +1,6 @@
+ >>>>>> JavaScript logical operators <<<<
+ 
+* Js boş string-i sıfıra çevirir.
+
+* İki string-i müqayisə edərkən, 2-i 1-dən böyük olduğu üçün 
+  avtomatik olaraq 2-i 12-dən böyük olacaq. 
