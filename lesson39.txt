@@ -1,0 +1,8 @@
+>>>>>>> JavaScript Comparison and Logical OPerators <<<<<<
+
+* və:&&,  vəya:||,  inkar:!, ifadələri məntiqi operatorlardı.
+
+* variable_name=(cindition) ? value1 : value2;
+
+* Düzgün cavab əldə etmək üçün dəyişkənlər müqayisə edilmədən öncə 
+  uyğun növə çevrilməlidir.
