@@ -1,0 +1,13 @@
+>>>>>> JavaScript If...Else Statements <<<<<<<
+
+* Kod yazarkən ümumilikdə fərqli qərarlar üçün fərqli hərəkətlər həyata keçirmək
+  istərsiniz. Bunu etmək üçün kodumuzda müqayisəli\ ifadələr istifadə edə bilərsiniz.
+
+* Js-də aşağıdakı müqayisəli ifadələr vardır:
+  - if -- Müəyyən bir müqayisə doğrudursa, icra olunacaq kod bloku üçün istifadə edilir.
+  - else -- həmin ifadə səhvdirsə, icra edilecek bir kod bloku üçün istifadə edilir.
+  - else if -- ilk iki müqayisə səhvdirsə yeni bir müqayisə müəyyən etmək üçün istifadə edilir.
+  - switch -- icra edilecek bir çox alternativ kod bloku üçün istifadə edilir.
+
+* kiçik hərflərlə yazmağı unutmayın. Böyük hərflər (If və ya IF) Js xətası yaradacaqdır.
+  
