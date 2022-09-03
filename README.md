@@ -52,6 +52,10 @@ lesson39 - JavaScript Comparison and Logical Operators
 
 lesson40 - JavaScript Comparison and Logical OPerators 
 
+lesson41 - JavaScript if...else statements 
+
+lesson42 - JavaScript switch statements
+
 
 
 

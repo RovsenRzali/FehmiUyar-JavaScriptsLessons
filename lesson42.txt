@@ -1,0 +1,19 @@
+>>>>>> JavaScript switch statements <<<<<
+
+* switch(expression) {
+        case n: code block break;
+        case n: code block break;
+        default: code block
+        }
+
+* Js break keyword-nə çatdığında switch blokunin icrası dayanır.
+
+* Bu blok içində daha çox kod və vəziyyət incələnməsinin icra olunmasını dayandıracaqdır.
+
+* default keyword-u heçbir kodun icra edilməyəcəyi halda həyata keçiriləcək
+  kodu müəyyən edir.
+
+* default keyword-u kod blokunda ən sonda yazılmayada bilər.
+
+* default kod blokunda ən sonda yazılmayıbsa varsayılan aralığı break ilə bitirməyi unutmayın.
+
