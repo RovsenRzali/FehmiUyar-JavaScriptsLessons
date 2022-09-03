@@ -1,0 +1,15 @@
+>>>>>> JavaScript for....loop <<<<<
+
+* Js-də fərqli loop növlərini dəstəkləyir:
+  - for
+  - for/in
+  - while
+  - do/while
+
+* for (statement1, statement2, statement3) {
+    code block to be executed
+} 
+
+* statement1 - loop kod bloku başlamadan əvvəl icra edilir.
+  statement2 - loop icra edilmə şərtini müəyyənləşdirər.
+  statement3 - loop (kod bloku)  icra ediləndən sonra hər dəfəsində isitifadə edilir. 
