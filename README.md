@@ -58,6 +58,9 @@ lesson42 - JavaScript switch statements
 
 lesson43 - JavaScript for...loop
 
+lesson44 - JavaScript algorythma consciousness
+
+
 
 
 
