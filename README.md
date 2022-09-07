@@ -60,6 +60,14 @@ lesson43 - JavaScript for...loop
 
 lesson44 - JavaScript algorythma consciousness
 
+lesson45 - JavaScript for....in 
+
+lesson46 - JavaScript  while...loop
+
+lesson47 - JavaScript break, continue and label
+
+
+
 
 
 

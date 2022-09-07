@@ -1,0 +1,30 @@
+>>>>> JavaScript break and continue <<<<
+
+* break -- ifadəsi bir dövrənin "üzərindən keçməyimizi"  təmin edir.
+
+* continue -- bir şərti keçməyimizi təmin edir.
+
+* Əvvəllərdə işlətdiyimiz "break" ifadəsi switch()-də istifadə edilirdi.
+
+* break -- dövrəni dayandırar və dövrədən sonra kodu icra etməyə davam edər.
+
+* continue -- bir dövrədə bir kodu keçər, verilən bir şərt meydana gələrsə 
+  dövrədəki kodun üzərindən keçərək davam edər.
+
+* Js statement-ləri etiketləmək üçün ifadələrdən əvvəl bir etiket adı və 2 
+  nöqtə üst-üstə gətirilir
+
+  label: statements
+
+* break və continue ifadələri bir kod blokundan "sıçrayabilən" Js ifadələridir.
+
+* break lablename: continue labelname;
+
+* continue ifadəsi (bir etiket müraciəti olsun və ya olmasın) yalnızca bir dövrənin 
+  üzərinən keçmək üçün istifadə oluna bilər.
+
+* Etiket referansına sahib olmayan break ifadəsi yalnızca bir dövrədən və ya bir switch-dən kənara 
+  çıxmaq üçün istifadə edilə bilər.
+
+* Bir etiket referansıyla break ifadəsi hər hansı bir kod blokundan kənara çıxmaq üçün istifadə edilə bilər.
+    
