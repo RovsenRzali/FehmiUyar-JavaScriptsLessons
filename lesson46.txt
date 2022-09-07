@@ -1,0 +1,15 @@
+>>>>> JavaScript while....loop <<<<<<
+
+* while dövrəsi verilən bir şərt doğru olduğu müddətdə kod blokunu icra edir.
+  while(condition) {
+    code block to be executed
+  }
+
+* Dövrədə istifadə olunan dəyişkəni artırmağı unutsanız, dövrə heç vaxt
+  bitmiyəcək. Bu brauzeri kilitləyir.
+
+* Do/while dövrəsi, while dövrəsinin bir varinatıdır. Bu dövrə şərtin doğru olub olmadığını
+  kontrol etmədən öncə kod blokunu bir dətə yerinə yetirir və şərt doöru olduğu müddtdə 
+  dövrəni təkrar layır.
+
+  

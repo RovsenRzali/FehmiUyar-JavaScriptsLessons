@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript while...loop</title>
+  </head>
+  <body>
+    <p id="result"></p>
+    <button onclick="show()">Loop</button>
+    <p id="result2"></p>
+    <p id="result3"></p>
+
+    <script>
+      /*Bu formada yazanda boruzerin çökməyinə səbəb olur. 
+      9  10-dan kiçik olduğu və i++ yazmadığımız üçün bu proses dayanmadan icra olunur.
+      */
+      /*
+      function show() {
+        var message = "", i=0;
+        while(i<10) {
+            message = "Number: "+i+"<br>";
+        }
+        document.getElementById("result").innerHTML = message;
+      }
+      */
+
+      // Düzgün forması
+      function show2() {
+        var message = "",
+          i = 0;
+        while (i < 10) {
+          message += "Number: " + i + ".<br>";
+          i++;
+        }
+        document.getElementById("result2").innerHTML = message;
+      }
+      show2();
+
+      /* do/while do birinci yerinə yetirir sora şərti doğruluğunu yoxlayır.
+      Əgər şərt ödənsə hamısın yerinə yetirəcək, ödənməsə 1 dəfə icra olunur.*/
+      function show3() {
+        var message = "",
+          i = 3;
+        do {
+          message += "DoWhile: " + i + ".<br>";
+          i++;
+        } while (i < 10);
+        document.getElementById("result3").innerHTML = message;
+      }
+      show3();
+    </script>
+  </body>
+</html>
