@@ -1,0 +1,38 @@
+>>>> JavaScript Type Conversion <<<<<
+
+* JavaScript dəyişkənləri yeni bir dəyişkənə və başqa bir data type-a 
+   çevirə bilir. Bunun Js funksiyası istifadə edərək və ya avtomatik olaraq 
+   Js özü edə bilir.
+
+* toExponential(), toFixed(), toProcision() metodları da nəticəni string-ə 
+  çevirə  bilir.
+
+* Global metod String() boolean-ları string-ə çevirə bilir.
+
+* toString() Boolean metoduda eyni işi görür.
+
+* Global metod String(), tarixləri stringlərə çevirə bilir.
+
+* Global metod Number() string-ləri rəqəmlərə çevirə bilir.
+
+* Rəqəmlədən ibarət string-lər ("3.14) rəqəmlrə çevrilir.
+
+* Boş string 0-a çevrilir.
+
+* Başqa hər hansı bir şeyi NaN-a (rəqəm deilsə) çevirir.
+
+* parseFloat() və parseInt() string-ləri rəqəmlərə çevirən başqa 
+  bir metoddu.
+
+* Təkli +operator bir dəyişkəni bir rəqəmə çevirmək üçün istifadə 
+  edilə   bilər.
+
+* Dəyişkən çevrilə bilinmirsə yenədə bir rəqəm olir ancaq NaN dəyəri ilə
+
+* Global metod Number() da boolean-ları rəqəmlərə çevirə bilir.
+
+* Global metod Number() traxiləri rəqəmlərə çevirə bilir.
+
+.....Ardı şəkillərdədi>>>>>>>
+
+

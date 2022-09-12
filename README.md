@@ -70,6 +70,9 @@ lesson48 - JavaScript 4 process game
 
 lesson49 - JavaScript all types
 
+lesson50 - JavaScript types conversation
+
+
 
 
 
