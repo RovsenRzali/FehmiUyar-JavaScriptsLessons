@@ -66,6 +66,11 @@ lesson46 - JavaScript  while...loop
 
 lesson47 - JavaScript break, continue and label
 
+lesson48 - JavaScript 4 process game
+
+lesson49 - JavaScript all types
+
+
 
 
 

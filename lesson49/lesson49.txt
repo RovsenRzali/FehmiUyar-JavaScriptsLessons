@@ -1,0 +1,34 @@
+>>>> JavaScript Types <<<<<
+
+* Number () bir Number-a çevirir, String() bir String-ə çevirir.
+  Boolean() bir boolean-a çevirir.
+
+* JavaScript-də dəyər daxil ola bilən 5 fərqli  data types var:
+   - String
+   - Number
+   - boolean
+   - object
+   - function
+
+* 3 növ obyekt var:
+  - object
+  - Date
+  - Array   
+
+* Son olaraq dəyər daxil olmayan 2 data types var:
+  - null 
+    undefined
+
+* JavaScript dəyişkəninin type-nı tapmaq üçün "typeof" operatorunu 
+  istifadə edirik.
+
+* typeof operatoru bir dəyişkən deyildir. Bu bir operatordur və operatorlar(+ - * /) 
+  hər hansı vir data typ-a ssahib deyildir.
+
+* constructor --  Js dəyişkənləri üçün constructor funksiyasını işə salır.
+
+* Bir obyektin array olub olmadığını öyrənmək üçün constructor istifadə edilir.
+
+* Bir obyektin date olub olmadığını öyrənmək üçün də istifadə edilə bilər.
+
+    
