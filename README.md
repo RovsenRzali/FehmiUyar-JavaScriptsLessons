@@ -74,6 +74,8 @@ lesson50 - JavaScript types conversation
 
 lesson51 - JavaScript  Bitwise Operations
 
+lesson52 - JavaScript  AND & operatoru 
+
 
 
 
