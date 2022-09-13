@@ -72,6 +72,8 @@ lesson49 - JavaScript all types
 
 lesson50 - JavaScript types conversation
 
+lesson51 - JavaScript  Bitwise Operations
+
 
 
 
