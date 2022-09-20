@@ -76,6 +76,14 @@ lesson51 - JavaScript  Bitwise Operations
 
 lesson52 - JavaScript  AND & operatoru 
 
+lesson53 - JavaScript  OR Operations
+
+lesson54 - JavaScript  XOR Operations  
+
+lesson55 - JavaScript  AND XOR Operations  
+
+lesson56 - JavaScript  Bitwise left(<<) and right(>>) shift Operations
+
 
 
 
