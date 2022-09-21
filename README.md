@@ -84,6 +84,7 @@ lesson55 - JavaScript  AND XOR Operations
 
 lesson56 - JavaScript  Bitwise left(<<) and right(>>) shift Operations
 
+lesson57 - JavaScript regular expression 
 
 
 
@@ -97,3 +98,5 @@ lesson56 - JavaScript  Bitwise left(<<) and right(>>) shift Operations
 
 
 
+
+-üeeeeee
