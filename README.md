@@ -88,17 +88,6 @@ lesson57 - JavaScript regular expression
 
 lesson58 - JavaScript try,catch, throw, finally. 
 
+lesson59 - JavaScript Errors. 
 
 
-
-
-
-
-
-
-
-
-
-
-
--üeeeeee
