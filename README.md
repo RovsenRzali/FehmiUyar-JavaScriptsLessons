@@ -86,6 +86,8 @@ lesson56 - JavaScript  Bitwise left(<<) and right(>>) shift Operations
 
 lesson57 - JavaScript regular expression 
 
+lesson58 - JavaScript try,catch, throw, finally. 
+
 
 
 
