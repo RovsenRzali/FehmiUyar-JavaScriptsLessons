@@ -90,4 +90,16 @@ lesson58 - JavaScript try,catch, throw, finally.
 
 lesson59 - JavaScript Errors. 
 
+lesson62 - JavaScript Use Strict. 
+
+lesson63 - JavaScript Use strict. 
+
+lesson64 - JavaScript Important details. 
+
+lesson65 - JavaScript Performans. 
+
+
+
+
+
 
