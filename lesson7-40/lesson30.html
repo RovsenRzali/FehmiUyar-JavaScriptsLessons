@@ -15,9 +15,6 @@
     <button type="button" onclick="RanNum()">Random number</button>
     <p id="result6"></p>
     <button type="button" onclick="show(1,10)">GetRandom</button>
-    <p id="result7"></p>
-    <p id="result8"></p>
-    <p id="result9"></p>
 
     <script>
       var x = 128;
@@ -35,7 +32,7 @@
         Math.LN10 +
         "<br>" +
         Math.LOG2E +
-        "<br>" + 
+        "<br>" +
         Math.random() +
         "<br>";
 
@@ -52,8 +49,8 @@
         return Math.floor(Math.random() * max) + min;
       }
 
-      function show(p1,p2) {
-        document.getElementById("result6").innerHTML = getRandom(p1,p2);
+      function show(p1, p2) {
+        document.getElementById("result6").innerHTML = getRandom(p1, p2);
       }
     </script>
   </body>
