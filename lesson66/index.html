@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <p id="result"></p>
+    <button type="button" id="externalJs">Call Js</button>
+    <script>
+      window.onload = function () {
+        var getElement = document.createElement("script");
+        getElement.type = "text/javascript";
+        getElement.src = "js/message.js";
+        document.body.appendChild(getElement); // body-in ən sonuna əlavə edir.
+      };
+
+      // buttona-a tıkladıqda çalışır.
+      var getJs = document.getElementById("externalJs");
+      getJs.onclick = function () {
+        var scriptCreat = document.createElement("script");
+        scriptCreat.src = "js/message.js";
+        scriptCreat.type = "text/javascript";
+        document.getElementsByTagName("head")[0].appendChild(scriptCreat); // head in içərisində yaradır.
+      };
+    </script>
+    <!-- yuxarıdakı kodla aşağıdakın yaradırıq -->
+    <!-- <script type = "text/javascript" src = "js/message.js"></script> -->
+  </body>
+</html>
