@@ -1,0 +1,6 @@
+* document.querySelector('#result2').innerHTML = num[i]; bu formada HTML elementinə çatmaq
+  kodun icrasın yavaşladır. Sürətli icra üçün aşağıdakı formada yazarıq:
+  var result = document.querySelector('#result2')
+     result.innerHTML = num[i]
+
+* js-i hər zaman ən aşağı hissədə birləşdir. BU website-ın yüklənməsini sürətləndirir.
