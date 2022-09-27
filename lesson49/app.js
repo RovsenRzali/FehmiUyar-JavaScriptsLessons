@@ -1,3 +1,10 @@
+function creatP (par1,par2) {
+  var getElementP = document.createElement("p")
+  getElementP.id = par1;
+  getElementP.innerHTML = par2;
+  document.body.appendChild(getElementP)
+}
+
 var x;
 
 document.querySelector("#result").innerHTML =
@@ -86,12 +93,13 @@ function isArray(langs) {
   return langs.constructor.toString().indexOf("Array") > -1;
 }
 
-document.querySelector("#result3").innerHTML = isArray(langs);
-document.querySelector("#result4").innerHTML = langs.constructor === Array;
+creatP("result3", "result3: "+isArray(langs))
+creatP("result4", "result4: " + langs.constructor === Array)
+
 
 var toDay = new Date();
 function isDate() {
   return toDay.constructor.toString().indexOf("Date") > -1;
 }
 
-document.querySelector("#result5").innerHTML = isDate();
+creatP("result5", "result5: "+isDate())
