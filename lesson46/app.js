@@ -12,6 +12,14 @@
       */
 
 // Düzgün forması
+
+function creatP(par1, par2) {
+  var getElementP = document.createElement("p");
+  getElementP.id = par1;
+  getElementP.innerHTML = par2;
+  document.body.appendChild(getElementP);
+}
+
 function show2() {
   var message = "",
     i = 0;
@@ -19,7 +27,7 @@ function show2() {
     message += "Number: " + i + ".<br>";
     i++;
   }
-  document.getElementById("result2").innerHTML = message;
+  creatP("result2", message);
 }
 show2();
 
@@ -32,6 +40,6 @@ function show3() {
     message += "DoWhile: " + i + ".<br>";
     i++;
   } while (i < 10);
-  document.getElementById("result3").innerHTML = message;
+  creatP("result3", message);
 }
 show3();
