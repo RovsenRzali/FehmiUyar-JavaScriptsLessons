@@ -102,6 +102,9 @@ lesson66 - while press buton, download external js file.
 
 lesson67 - JavaScript reserved keywords. 
 
+lesson68 - What is the JSON?
+
+lesson69 - Window object
 
 
 
