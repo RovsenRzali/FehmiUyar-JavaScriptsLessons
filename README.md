@@ -106,6 +106,13 @@ lesson68 - What is the JSON?
 
 lesson69 - Window object
 
+lesson70 - Window object, screen and location 
+
+lesson71 - Window object, history and navigation
+
+lesson72 - Popup Boxes
+
+
 
 
 
