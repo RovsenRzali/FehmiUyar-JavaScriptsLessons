@@ -13,31 +13,31 @@
     />
   </head>
   <body>
-    <div class="container mt-3">
-      <form id="frmBegin" name="frmBegin">
-        <div class="form-group">
-          <label for="username">Username:</label>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            class="form-control"
-          />
-        </div>
-        <div class="form-group">
-          <label for="pass">Password:</label>
-          <input type="text" name="pass" id="pass" class="form-control" />
-          <button
-            type="button"
-            onclick="printScreen()"
-            class="btn btn-success mt-2"
-          >
-            Click
-          </button>
-        </div>
-      </form>
-      <p id="result" class="alert alert-success mt-2"></p>
-    </div>
+    <button
+      type="button"
+      onclick="deleteTime=setTimeout(process,2000)"
+      class="btn btn-success mt-3 mb-3"
+    >
+      Click setTimeOut
+    </button>
+    <button
+      type="button"
+      onclick="clearTimeout(deleteTime)"
+      class="btn btn-success mt-3 mb-3"
+    >
+      Stop
+    </button>
+    <button
+      type="button"
+      onclick="clearInterval(times)"
+      class="btn btn-success mt-3 mb-3"
+    >
+      Stop Times
+    </button>
+    <p id="result"></p>
+    <p><input type="text" name="data1" id="data1" /></p>
+    <p><input type="text" name="data2" id="data2" /></p>
+    <p id="result2"></p>
     <script src="app.js"></script>
   </body>
 </html>

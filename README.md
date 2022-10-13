@@ -112,7 +112,9 @@ lesson71 - Window object, history and navigation
 
 lesson72 - Popup Boxes
 
-lesson73 - Reach form elements
+lesson73 - Timing  Events
+
+lesson74 -Reach form elements
 
 
 
