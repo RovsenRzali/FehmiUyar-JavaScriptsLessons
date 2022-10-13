@@ -1,8 +1,9 @@
 function printScreen() {
   var valueForm,result;
   result = document.querySelector('#result')
-  valueForm = document.forms[0].length
-  result.innerHTML = valueForm
+  //valueForm = document.forms[0].username.value // bunu aşağıda digər formada yazaq
+  //valueForm = document.frmBegin.username.value //HTML də name verməsək bu çalışmayacaq
+  valueForm = document.querySelector('#username').value // digər bir metod.
+  result.innerHTML = valueForm;
 }
 
-/* left in 8th min. */
