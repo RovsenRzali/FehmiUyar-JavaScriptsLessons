@@ -118,6 +118,10 @@ lesson74 - Reach form elements
 
 lesson75 - Form Validation
 
+lesson88 - HTML DOM object was changed by JavaScript
+
+lesson89 - HTML DOM was changed by JavaScript
+
 
 
 
