@@ -118,11 +118,31 @@ lesson74 - Reach form elements
 
 lesson75 - Form Validation
 
+lesson76 - JavaScript VAlidation API
+
+lesson77 - getElementsbyName
+
+lesson79 - Creat object
+
+lesson80 - Object features and methods
+
+lesson81 - Object prototypes
+
+lesson82 - Functions
+
+lesson83 - Function parameters
+
+lesson84 - Call and Apply
+
 lesson88 - HTML DOM object was changed by JavaScript
 
 lesson89 - HTML DOM was changed by JavaScript
 
 lesson91 - onload, onunload, aand onscroll events 
+
+lesson92 - onchange,onmouseover,onmouseout events
+
+lesson93 - onmousedown,onmouseup,ondoubleclick,onmousemove,onkeydown,onkeyup
 
 
 
