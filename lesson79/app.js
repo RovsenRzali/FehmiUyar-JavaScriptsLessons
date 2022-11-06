@@ -1,3 +1,19 @@
+
+
+var anyElement;
+function createP(id) {
+  anyElement = document.createElement('p');
+  anyElement.id = id;
+  document.querySelector('#container').appendChild(anyElement);
+}
+
+createP('result') 
+createP('result2') 
+createP('result3') 
+createP('result4') 
+
+
+
 var person = {
   firstName: "Fehmi",
   lastName: "Uyar",

@@ -1,3 +1,15 @@
+var anyElement;
+function createP(id) {
+  anyElement = document.createElement('p');
+  anyElement.id = id;
+  document.querySelector('#container').appendChild(anyElement);
+}
+
+createP('result') 
+createP('result2') 
+createP('result3') 
+createP('result4') 
+
 function person (first,last,age,color) {
   this.firstName = first;
   this.lastName = last
