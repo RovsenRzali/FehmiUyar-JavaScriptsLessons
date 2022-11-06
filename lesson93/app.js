@@ -1,10 +1,21 @@
+var anyElement;
 function createAnyElement(elmnt, id, clsnm) {
-  var anyElement = document.createElement(elmnt);
+  anyElement = document.createElement(elmnt);
   anyElement.id = id;
   anyElement.className = clsnm;
   document.body.appendChild(anyElement);
 }
+
 createAnyElement("div", "container", "container-fluid mt-3");
+createAnyElement("p", "result", "result ml-3");
+anyElement.innerHTML = "Javascript";
+
+var result = document.querySelector("#result");
+document.querySelector("#container").appendChild(result);
+
+var container = document.querySelector("#container");
+container.style.border = "1px solid";
+
 function creatInput(id) {
   var inpt = document.createElement("input");
   inpt.id = id;
@@ -13,16 +24,6 @@ function creatInput(id) {
   inpt.name = "username";
   document.querySelector("#container").appendChild(inpt);
 }
-
-creatInput("username");
-
-function changeFunction() {
-  var getInput = document.querySelector("#username");
-  getInput.value = getInput.value.toUpperCase();
-}
-
-var username = document.querySelector("#username");
-username.addEventListener("change", changeFunction);
 
 function creatImg(id, picturesrc) {
   var img = document.createElement("img");
@@ -34,15 +35,71 @@ function creatImg(id, picturesrc) {
 }
 
 creatImg("picture", "img/bulb-on.jpg");
+
+creatInput("username");
+
+createAnyElement("div", "demo", "brd");
+anyElement.innerHTML = "Javascript";
+var demo = document.querySelector("#demo");
+document.querySelector("#container").appendChild(demo);
+demo.style.width = "200px";
+demo.style.height = "60px";
+demo.style.color = "white";
+demo.style.border = "1px solid red";
+demo.style.backgroundColor = "crimson";
+demo.style.padding = "16px";
+demo.style.marginLeft = "10px";
+
 var picture = document.querySelector("#picture");
+picture.onmousemove = function () {
+  document.querySelector("#picture").src = "img/bulb-off.jpg";
+};
 
-function onMouseOver() {
-  picture.src = "img/bulb-off.jpg";
+picture.onmouseout = function () {
+  document.querySelector("#picture").src = "img/bulb-on.jpg";
+};
+
+result.onmousedown = function () {
+  result.style.backgroundColor = "blue";
+  document.querySelector("#result").innerHTML = "Hello Javascript";
+};
+
+result.onmouseup = function () {
+  result.style.backgroundColor = "green";
+  result.style.paddingLeft = "5px";
+  result.style.textAlign = "center";
+  document.querySelector("#result").innerHTML = "JavaScript was switched off";
+};
+
+result.ondblclick = function () {
+  result.style.backgroundColor = "yellow";
+  result.style.paddingLeft = "5px";
+  result.style.textAlign = "center";
+  document.querySelector("#result").innerHTML =
+    "You are increasing your skills";
+};
+
+var username = document.querySelector("#username");
+
+function test() {
+  username.style.backgroundColor = "orange";
+  username.style.padding = "17px";
+  username.style.color = "white";
+  username.style.width = "200px";
 }
+username.addEventListener("focus", test);
 
-function onMouseOut() {
-  picture.src = "img/bulb-on.jpg";
-}
+username.onkeypress = function () {
+  username.style.backgroundColor = "grey";
+  document.querySelector("#demo").innerHTML = "Pressed one button";
+};
 
-picture.addEventListener("mouseover", onMouseOver);
-picture.addEventListener("mouseout", onMouseOut);
+username.onkeydown = function () {
+  username.style.backgroundColor = "grey";
+  document.querySelector("#demo").innerHTML = "Taked your hand over button";
+};
+
+username.onkeyup = function () {
+  username.style.backgroundColor = "grey";
+  document.querySelector("#demo").innerHTML = "Stoped press a button";
+};
