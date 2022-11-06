@@ -6,17 +6,22 @@ function creatP(par1, par2, par3) {
   document.querySelector("#container").appendChild(getElementP);
 }
 
-creatP("result", "Javascript");
+var anyElement;
+function createAnyElement(elmnt, id, clsnm) {
+  anyElement = document.createElement(elmnt);
+  anyElement.id = id;
+  anyElement.className = clsnm;
+  document.querySelector("#container").appendChild(anyElement);
+}
 
 function creatImg() {
   var getElementImg = document.createElement("img");
-  getElementImg.src = "img/bulb-on.jpg";
-  getElementImg.id = "picture2";
+  getElementImg.src = "img/bulb-off.jpg";
+  getElementImg.id = "picture";
   getElementImg.style.width = "180px";
   getElementImg.style.height = "180px";
   document.querySelector("#container").appendChild(getElementImg);
 }
-creatImg();
 
 function changeImgon() {
   document.querySelector("#picture").src = "img/bulb-on.jpg";
@@ -26,6 +31,19 @@ function changeImgoff() {
   document.querySelector("#picture").src = "img/bulb-off.jpg";
   document.querySelector("#picture").setAttribute("height", "350px");
 }
+creatImg();
+
+createAnyElement("btn", "btn-bulb-on", "btn btn-dark");
+createAnyElement("btn", "btn-bulb-off", "btn btn-dark ml-2");
+
+var btnBulbOn = document.querySelector("#btn-bulb-on");
+btnBulbOn.innerHTML = "on";
+btnBulbOn.addEventListener("click", changeImgon);
+var btnBulbOff = document.querySelector("#btn-bulb-off");
+btnBulbOff.innerHTML = "off";
+btnBulbOff.addEventListener("click", changeImgoff);
+
+creatP("result", "Javascript");
 
 creatP("result2", "The world will be nice");
 
@@ -36,14 +54,21 @@ function changeCss() {
   changeCss.style.marginTop = "10px";
 }
 
-var btn = document.querySelector("#ChangeCss");
-document.querySelector("#container").appendChild(btn);
+createAnyElement("btn3", "ChangeCss", "btn btn-success");
+
+var btn3 = document.querySelector("#ChangeCss");
+btn3.innerHTML = "Change css";
+btn3.addEventListener("click", changeCss);
+document.querySelector("#container").appendChild(btn3);
 
 var box = document.querySelector("#box");
 document.querySelector("#container").appendChild(box);
 
-var box = document.querySelector("#ChangeBoxCss");
-document.querySelector("#container").appendChild(box);
+createAnyElement("btn4", "ChangeBoxCss", "btn btn-success mt-4");
+anyElement.innerHTML = "Change Box Css";
+var btn4 = document.querySelector("#ChangeBoxCss");
+btn4.addEventListener("click", changeBoxCss);
+document.querySelector("#container").appendChild(btn4);
 
 function changeBoxCss() {
   var changeBoxCss,
