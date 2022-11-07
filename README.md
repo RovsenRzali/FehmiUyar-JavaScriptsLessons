@@ -146,6 +146,10 @@ lesson93 - onmousedown,onmouseup,ondoubleclick,onmousemove,onkeydown,onkeyup
 
 lesson94 - EventListener
 
+lesson95 - EventListener
+
+lesson96 - removeEventListener
+
 
 
 
