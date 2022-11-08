@@ -1,3 +1,29 @@
+var anyElement;
+function createAnyElement(elmnt, id, clsnm) {
+  anyElement = document.createElement(elmnt);
+  anyElement.id = id;
+  anyElement.className = clsnm;
+  document.body.appendChild(anyElement);
+}
+
+createAnyElement("button", "btn1", "btn btn-dark");
+anyElement.innerHTML = "Boxes";
+document.querySelector("#btn1").addEventListener("click", boxes);
+document.querySelector("#btn1").style.display = "block";
+document.querySelector("#btn1").style.marginBottom = "10px";
+
+createAnyElement("button", "btn2", "btn btn-success");
+anyElement.innerHTML = "Valid";
+document.querySelector("#btn2").addEventListener("click", valid);
+
+createAnyElement("p", "result", "result");
+
+createAnyElement("button", "btn3", "btn");
+anyElement.innerHTML = "Enter lesson Name";
+document.querySelector("#btn3").addEventListener("click", enterLessonName);
+
+createAnyElement("p", "result2", "result");
+
 var result, result2;
 result = document.querySelector("#result");
 result2 = document.querySelector("#result2");
