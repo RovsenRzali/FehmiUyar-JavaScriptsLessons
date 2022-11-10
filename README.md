@@ -152,6 +152,12 @@ lesson96 - removeEventListener
 
 lesson97 - HTML DOM Nodes
 
+lesson98 - Nodes
+
+lesson99 - Nodes
+
+lesson100 - Add,remove,replace elements
+
 
 
 
