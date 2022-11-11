@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Math objects</title>
-  </head>
-  <body>
-    <p id="result"></p>
-    <p id="result2"></p>
-    <p id="result3"></p>
-    <p id="result4"></p>
-    <p id="result5"></p>
-    <button type="button" onclick="RanNum()">Random number</button>
-    <p id="result6"></p>
-    <button type="button" onclick="show(1,10)">GetRandom</button>
 
-    <script>
       var x = 128;
       document.getElementById("result3").innerHTML =
         Math.E +
@@ -52,6 +34,4 @@
       function show(p1, p2) {
         document.getElementById("result6").innerHTML = getRandom(p1, p2);
       }
-    </script>
-  </body>
-</html>
+    
