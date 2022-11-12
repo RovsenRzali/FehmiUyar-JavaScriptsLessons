@@ -7,60 +7,61 @@ function createAnyElement(elmnt, id, clsnm) {
 }
 
 createAnyElement("div", "DivParent", "container-fluid mt-3");
+var DivParent = document.querySelector("#DivParent");
 
 function changeAppenChild(id1, id2) {
   var id1 = document.querySelector(id2);
   document.querySelector("#DivParent").appendChild(id1);
 }
 
-programLangs = ["Angular", "React", "Vue", "Node"];
+createAnyElement("img", "picture", "picture");
+changeAppenChild(picture, "#picture");
+var picture = document.querySelector("#picture");
+picture.src = "img/bulb-on.jpg";
+picture.style.width = "100px";
+picture.style.height = "180px";
+picture.style.display = "block";
 
-for (i = 0; i < programLangs.length; i++) {
-  createAnyElement("p", `p${i + 1}`, `p${i + 1}`);
-  var id = document.querySelector(`#p${i + 1}`);
-  document.querySelector("#DivParent").appendChild(id);
-  document.querySelector(`#p${i + 1}`).innerHTML = programLangs[i];
+createAnyElement("button", "btnOnOff", "btn btn-dark");
+changeAppenChild(btnOnOff, "#btnOnOff");
+var btnOnOff = document.querySelector("#btnOnOff");
+btnOnOff.innerText = "on/off";
+btnOnOff.type = "button";
+btnOnOff.style.display = "block";
+btnOnOff.addEventListener("click", hideShow);
+
+function hideShow() {
+  if (picture.style.display == "none") {
+    picture.style.display = "block";
+  } else {
+    picture.style.display = "none";
+  }
 }
 
-createAnyElement("div", "DivParent2", "container-fluid mt-3");
+createAnyElement("a", "doComment", "form-controll");
+changeAppenChild(doComment, "#doComment");
+var doComment = document.querySelector("#doComment");
+doComment.innerText = "comment /";
+doComment.href = "#";
+doComment.addEventListener("click", Show);
 
-var btninner = ["Add", "Remove", "Replace"];
+createAnyElement("a", "cancelComment", "form-controll");
+changeAppenChild(cancelComment, "#cancelComment");
+var cancelComment = document.querySelector("#cancelComment");
+cancelComment.innerText = "cancelComment";
+cancelComment.href = "#";
+cancelComment.addEventListener("click", hide);
 
-for (i = 0; i < btninner.length; i++) {
-  createAnyElement("button", `btn${i + 1}`, `btn btn-dark ml-2`);
-  var id = document.querySelector(`#btn${i + 1}`);
-  document.querySelector("#DivParent2").appendChild(id);
-  document.querySelector(`#btn${i + 1}`).innerHTML = btninner[i];
+createAnyElement("input", "username", "form-controll");
+changeAppenChild(username, "#username");
+var username = document.querySelector("#username");
+username.style.display = "none";
+DivParent.insertBefore(username, cancelComment);
+
+function Show() {
+  username.style.display = "block";
 }
 
-var DivParent = document.querySelector("#DivParent");
-var p3 = document.querySelector("#p3");
-var p4 = document.querySelector("#p4");
-
-function createElementDOM() {
-  var p = document.createElement("p");
-  var text = document.createTextNode("JavaScript");
-  p.appendChild(text);
-  DivParent.insertBefore(p, p3);
+function hide() {
+  username.style.display = "none";
 }
-
-var add = document.querySelector("#btn1");
-add.addEventListener("click", createElementDOM);
-
-function removeElementDOM() {
-  // DivParent.removeChild(p3)  // 1ci usul
-  p3.parentNode.removeChild(p3); //2ci yo
-}
-
-var remove = document.querySelector("#btn2");
-remove.addEventListener("click", removeElementDOM);
-
-function replaceElementDOM() {
-  var p = document.createElement("p");
-  var text = document.createTextNode("New Creater");
-  p.appendChild(text);
-  DivParent.replaceChild(p, p2);
-}
-
-var replace = document.querySelector("#btn3");
-replace.addEventListener("click", replaceElementDOM);
