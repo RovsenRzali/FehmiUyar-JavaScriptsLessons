@@ -158,6 +158,10 @@ lesson99 - Nodes
 
 lesson100 - Add,remove,replace elements
 
+lesson101 - hide and show
+
+lesson102 - Play Catch button 
+
 
 
 
