@@ -24,7 +24,7 @@ document.querySelector("#frm").appendChild(formGroup);
 createAnyElement("label", "lbl", "lbl");
 var lbl = document.querySelector("#lbl");
 lbl.for = "tc";
-lbl.innerText = 'TC NO'
+lbl.innerText = "TC NO";
 document.querySelector("#form-group").appendChild(lbl);
 
 createAnyElement("div", "row", "row");
@@ -36,26 +36,34 @@ var col3 = document.querySelector("#col3");
 document.querySelector("#row").appendChild(col3);
 
 createAnyElement("input", "tc", "form-control");
-var tc = document.querySelector("#tc");
-tc.type = 'text';
-tc.name = 'tc'
-document.querySelector("#col3").appendChild(tc);
+var ID = document.querySelector("#tc");
+ID.type = "text";
+ID.name = "tc";
+document.querySelector("#col3").appendChild(ID);
 
 createAnyElement("button", "btn", "btn btn-dark");
 var btn = document.querySelector("#btn");
-btn.type = 'button';
-btn.innerText = 'Control'
+btn.type = "button";
+btn.innerText = "Control";
 document.querySelector("#row").appendChild(btn);
 
 createAnyElement("p", "resultFalse", "alert alert-danger");
 var resultFalse = document.querySelector("#resultFalse");
 document.querySelector("#frm").appendChild(resultFalse);
-resultFalse.style.display = 'none'
+resultFalse.style.display = "none";
 
 createAnyElement("p", "resultTrue", "alert alert-success");
 var resultTrue = document.querySelector("#resultTrue");
 document.querySelector("#frm").appendChild(resultTrue);
-resultTrue.style.display = 'none'
+resultTrue.style.display = "none";
 
+btn.addEventListener("click", function () {
+  resultFalse.style.display = "block";
+  if (ID.value.length !== 11) {
+    resultFalse.textContent = "Seriya nömrəsi 11 rəqəmdən ibarət olmalıdır.";
+  } else if (isNaN(ID.value)) {
+    resultFalse.textContent = "Seriya nömrəsi  rəqəmlərdən ibarət olmalıdır.";
+  }
+});
 
 
