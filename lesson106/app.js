@@ -57,13 +57,47 @@ var resultTrue = document.querySelector("#resultTrue");
 document.querySelector("#frm").appendChild(resultTrue);
 resultTrue.style.display = "none";
 
+var odd = 0,
+  even = 0,
+  result,
+  i,
+  z,
+  tcTotal = 0;
+
 btn.addEventListener("click", function () {
   resultFalse.style.display = "block";
-  if (ID.value.length !== 11) {
-    resultFalse.textContent = "Seriya nömrəsi 11 rəqəmdən ibarət olmalıdır.";
+  for (i = 0; i < 9; i += 2) {
+    odd += Number(ID.value[i]);
+  }
+  odd *= 7;
+  for (i = 1; i < 8; i += 2) {
+    even += Number(ID.value[i]);
+  }
+  result = Math.abs(odd - even);
+
+  for (z = 0; z < 10; z++) {
+    tcTotal += Number(ID.value[z]);
+  }
+
+  if (ID.value == "") {
+    resultFalse.textContent = "Bu hissə doldrulmalıdır.";
   } else if (isNaN(ID.value)) {
     resultFalse.textContent = "Seriya nömrəsi  rəqəmlərdən ibarət olmalıdır.";
+  } else if (ID.value.length !== 11) {
+    resultFalse.textContent = "Seriya nömrəsi 11 rəqəmdən ibarət olmalıdır.";
+  } else if (ID.value[0] == 0) {
+    resultFalse.textContent = "İlk rəqəm 0 ola bilməz.";
+  } else if (result % 10 != Number(ID.value[9])) {
+    resultFalse.textContent = "Uyğunluq tapılmadı.";
+  } else if (tcTotal % 10 != Number(ID.value[10])) {
+    resultFalse.textContent = "Uyğunluq tapılmadı." + tcTotal;
+  } else {
+    resultFalse.style.display = "none";
+    resultTrue.style.display = "block";
+    resultTrue.textContent = "Daxil edilən seriya nömrəsi doğrudur.";
   }
 });
 
-
+// 02345678952
+// 12345678952
+// 12345678950
