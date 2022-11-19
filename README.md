@@ -189,7 +189,9 @@ lesson114 - OOP
 
 lesson115 - get,set inheritance
 
-lesson116 - 
+lesson116 - Class 
+
+lesson117 - Ecmascript 6 Template Literals
 
 
 
