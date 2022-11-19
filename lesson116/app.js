@@ -21,19 +21,11 @@ function $(par) {
 }
 
 class person {
-  constructor(p, p2, p3) {
-    this.Name = p;
-    this.age = p2;
-    this.weigth = p3;
-  }
-
- 
 
   static Message() {
     return "Object Oriented Programming";
   }
 }
-
 
 $("#result").innerHTML = person.Message()
   
