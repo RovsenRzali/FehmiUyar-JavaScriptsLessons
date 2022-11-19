@@ -27,79 +27,13 @@ class person {
     this.weigth = p3;
   }
 
-  get firstName() {
-    return this.Name;
-  }
+ 
 
-  get Age() {
-    return this.age;
-  }
-
-  get Weight() {
-    return this.weigth;
-  }
-
-  set firstName(name) {
-    this.Name = name;
-  }
-
-  set Age(age) {
-    this.age = age;
-  }
-
-  set Weight(weight) {
-    this.weigth = weight;
-  }
-
-  Message() {
+  static Message() {
     return "Object Oriented Programming";
   }
 }
 
-class Engineer extends person {
-  constructor(p, p2, p3, p4) {
-    super(p, p2, p3);
-    this.familyName = p4;
-  }
 
-  get familyN() {
-    return this.familyName;
-  }
-
-  set familyN(familyname) {
-    this.familyName = familyname;
-  }
-
-  MessageAlert() {
-    alert(super.Message());
-  }
-}
-
-var myObject = new Engineer("Fehmi", "26", 56, "Uyar");
-
-$("#result").innerHTML +=
-  myObject.firstName +
-  "<br>" +
-  myObject.familyN +
-  "<br>" +
-  myObject.Age +
-  "<br>" +
-  myObject.Weight +
-  "<br>" +
-  "--------" +
-  "<br>";
-
-myObject.firstName = "Rovshan";
-myObject.Age = "28yaş";
-myObject.Weight = "98kq";
-myObject.familyN = "Rzalı";
-
-$("#result").innerHTML +=
-  myObject.firstName +
-  " " +
-  myObject.familyN +
-  " " +
-  myObject.Age +
-  " " +
-  myObject.Weight;
-  myObject.MessageAlert();
+$("#result").innerHTML = person.Message()
+  
