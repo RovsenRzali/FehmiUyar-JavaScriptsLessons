@@ -193,6 +193,8 @@ lesson116 - Class
 
 lesson117 - Ecmascript 6 Template Literals
 
+lesson118 - Spread operators
+
 
 
 
