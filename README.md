@@ -195,6 +195,7 @@ lesson117 - Ecmascript 6 Template Literals
 
 lesson118 - Spread operators
 
+lesson119 - for i, for of
 
 
 
