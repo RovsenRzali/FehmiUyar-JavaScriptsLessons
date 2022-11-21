@@ -39,9 +39,9 @@ item = newGen.next();
 $("#result").innerHTML +=
   "Value:" + item.value + "  Done:" + item.done + "<br>";
 
-let newGen2 = gen();
-let item2 = newGen2.next();
 // konsolda göstərilməsi
+
+let newGen2 = gen();
 console.log(newGen2.next());
 console.log(newGen2.next());
 console.log(newGen2.next());
