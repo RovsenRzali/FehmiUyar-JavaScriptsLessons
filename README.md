@@ -205,6 +205,10 @@ lesson122 - Set
 
 lesson123 - Map and WeakMap object
 
+lesson125 - 
+
+lesson126 - Ecmascript 6 new string and number methods
+
 
 
 
