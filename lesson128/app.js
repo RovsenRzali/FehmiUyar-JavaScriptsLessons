@@ -24,16 +24,9 @@ createParagraph('p', 'result')
 let $ = (par) => document.querySelector(par);
 
  
-var langs = [
-  'Javascript',
-  'Node.js',
-  'Angular',
-  'ColdFusion',
-  'Jewelery',
-  'Adobe'
-]
+var obj,takeJson
+takeJson= '{"firstName":"Rovshan","familyName":"Rzali"}'
 
-langs.forEach(function(par,index){
-  ++index
-  $('#result').innerHTML += index+"." + par + "<br>" 
-})
+obj= JSON.parse(takeJson)
+
+$('#result').innerHTML = obj.firstName + " " + obj.familyName
