@@ -24,9 +24,20 @@ createParagraph('p', 'result')
 let $ = (par) => document.querySelector(par);
 
  
-var obj,takeJson
+var obj,takeJson,txt,Json,storageObj,workerInfo;
 takeJson= '{"firstName":"Rovshan","familyName":"Rzali"}'
-
 obj= JSON.parse(takeJson)
 
-$('#result').innerHTML = obj.firstName + " " + obj.familyName
+$('#result').innerHTML = obj.firstName + " " + obj.familyName + "<br>"
+
+
+workerInfo = {Name:"Kamran",position:"engineer"}
+Json = JSON.stringify(workerInfo)
+localStorage.setItem('storegeJSON',Json)
+txt = localStorage.getItem('storegeJSON')
+storageObj = JSON.parse(txt)
+
+$('#result').innerHTML += storageObj.Name + " " + storageObj.position
+
+
+
