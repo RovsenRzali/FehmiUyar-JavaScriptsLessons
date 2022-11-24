@@ -205,10 +205,29 @@ lesson122 - Set
 
 lesson123 - Map and WeakMap object
 
-lesson125 - 
+lesson125 - Promise 
 
 lesson126 - Ecmascript 6 new string and number methods
 
+lesson127 - forEach
+
+lesson128 - JSON, How can we use it?
+
+lesson129 - JSON Syntax
+
+lesson130 - JSON vs XML
+
+lesson131 - JSON data type
+
+lesson132 - JSON objects
+
+lesson133 - Array in JSON
+
+lesson134 - AJAx on JSON
+
+lesson135 - Parse in JSON
+
+lesson136 - Stringify in JSON
 
 
 
