@@ -1,0 +1,7 @@
+{
+    "Programmer":{"firstName":"Rovshan","familyName":"Rzali","age":7,"live":true, "subject":null},
+    "Programmer2":{"firstName":"Rovshan","familyName":"Rzali","age":7,"live":true, "subject":null},
+    "Country":["Poland","Iran","Turkish","Israel"]
+   }
+
+
