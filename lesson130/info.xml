@@ -1,0 +1,22 @@
+<writers>
+  <writer>
+    <firstName> Fehmi </firstName>
+    <familyName> Uyar</familyName>
+  </writer>
+  <writer>
+    <firstName> Engin </firstName>
+    <familyName> Dogan</familyName>
+  </writer>
+  <writer>
+    <firstName> Ilkin  </firstName>
+    <familyName> Quluzade</familyName>
+  </writer>
+  <writer>
+    <firstName> Samir  </firstName>
+    <familyName> Kerimov</familyName>
+  </writer>
+  <writer>
+    <firstName> Rovshan </firstName>
+    <familyName> Rzali</familyName>
+  </writer>
+</writers>
