@@ -1,0 +1,11 @@
+{
+    "firstName": "Rovshan",
+    "familyName": "Rzali",
+    "age": "28",
+    "info": ["57", "1.73", "black"],
+    "cars": [
+        { "nameCar": "Fiat", "models": ["fiesta", "doblo", "200"] },
+        { "nameCar": "BMW", "models": ["X5", "x3", "F10"] },
+        { "nameCar": "Mercedes", "models": ["S600", "C250", "GL650"] }
+    ]
+  }
