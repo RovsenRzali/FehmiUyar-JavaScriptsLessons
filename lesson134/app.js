@@ -29,8 +29,7 @@ btnRun.addEventListener('click',run)
 
 createParagraph("p", "result3");
 createParagraph("p", "result4");
-createParagraph("p", "result5");
-createParagraph("p", "result6");
+
 
 let $ = (par) => document.querySelector(par);
 
@@ -46,7 +45,7 @@ function run() {
   if(this.readyState===4 && this.status === 200){
     obj = JSON.parse(this.responseText);
     $('#result3').innerHTML = obj["firstName"] + " " + obj["familyName"]
-    $('#result3').innerHTML = obj["cars"][0]["nameCar"] + " " + obj["cars"][0]["models"][0]
+    $('#result4').innerHTML = obj["cars"][0]["nameCar"] + " " + obj["cars"][0]["models"][0]
   } 
  }
  xmlRequest.open("GET","info.json",true);
